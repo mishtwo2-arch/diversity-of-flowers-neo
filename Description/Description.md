@@ -57,6 +57,8 @@ Collect every flower and discover all the secrets they hold.
 - Ongoing development, updates, and bug fixes
 
 
+Plant Biomes: https://github.com/mishtwo2-arch/diversity-of-flowers-neo/blob/master/Description/biomes.txt
+
 Code development and project setup: Mihadge_ST
 
 Texture design and testing: Keliandra
@@ -119,6 +121,9 @@ Texture design and testing: Keliandra
 - Новые версии 
 
 - Поддержка мода
+
+
+Биомы растений: https://github.com/mishtwo2-arch/diversity-of-flowers-neo/blob/master/Description/biomes.txt
 
 
 Разработка кода и настройка проекта: Mihadge_ST
