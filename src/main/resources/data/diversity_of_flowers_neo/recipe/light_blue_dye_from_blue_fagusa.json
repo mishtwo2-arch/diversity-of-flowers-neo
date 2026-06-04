@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "diversity_of_flowers_neo:blue_fagusa"
+    }
+  ],
+  "result": {
+    "id": "minecraft:light_blue_dye",
+    "count": 2
+  }
+}

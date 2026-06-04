@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:savanna",
+    "minecraft:savanna_plateau"
+  ],
+  "features": [
+    "diversity_of_flowers_neo:golden_sage",
+    "diversity_of_flowers_neo:scarlet_sage",
+    "diversity_of_flowers_neo:peach_anemone",
+    "diversity_of_flowers_neo:night_anemone"
+  ],
+  "step": "vegetal_decoration"
+}

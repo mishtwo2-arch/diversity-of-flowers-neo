@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "diversity_of_flowers_neo:water_keraliy"
+    }
+  ],
+  "result": {
+    "id": "minecraft:cyan_dye",
+    "count": 2
+  }
+}

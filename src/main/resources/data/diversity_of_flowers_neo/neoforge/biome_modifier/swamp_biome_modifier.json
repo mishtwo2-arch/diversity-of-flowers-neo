@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "minecraft:swamp",
+  "features": [
+    "diversity_of_flowers_neo:red_fagusa",
+    "diversity_of_flowers_neo:blue_fagusa",
+    "diversity_of_flowers_neo:green_fagusa",
+    "diversity_of_flowers_neo:yellow_anemone"
+  ],
+  "step": "vegetal_decoration"
+}

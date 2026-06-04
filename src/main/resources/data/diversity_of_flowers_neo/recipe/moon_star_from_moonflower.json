@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "diversity_of_flowers_neo:moonflower"
+    }
+  ],
+  "result": {
+    "id": "diversity_of_flowers_neo:moon_star",
+    "count": 1
+  }
+}

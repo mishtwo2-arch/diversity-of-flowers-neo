@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "diversity_of_flowers_neo:block/snow_dandelion",
+    "particle": "diversity_of_flowers_neo:block/snow_dandelion"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "diversity_of_flowers_neo:block/red_periwinkle",
+    "particle": "diversity_of_flowers_neo:block/red_periwinkle"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "diversity_of_flowers_neo:pink_peony"
+    }
+  ],
+  "result": {
+    "id": "minecraft:pink_dye",
+    "count": 2
+  }
+}

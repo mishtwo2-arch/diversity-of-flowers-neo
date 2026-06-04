@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "diversity_of_flowers_neo:block/white_allium",
+    "particle": "diversity_of_flowers_neo:block/white_allium"
+  },
+  "render_type": "cutout"
+}

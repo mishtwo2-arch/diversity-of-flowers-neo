@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "diversity_of_flowers_neo:block/moonflower_bottom",
+    "particle": "diversity_of_flowers_neo:block/moonflower_bottom"
+  },
+  "render_type": "cutout"
+}

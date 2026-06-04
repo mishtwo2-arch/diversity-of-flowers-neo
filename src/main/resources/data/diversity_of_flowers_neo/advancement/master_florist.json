@@ -1,0 +1,80 @@
+{
+  "parent": "diversity_of_flowers_neo:root",
+
+  "display": {
+    "icon": {
+      "id": "diversity_of_flowers_neo:blue_fagusa"
+    },
+    "title": {
+      "translate": "advancements.diversity_of_flowers_neo.master_florist.title"
+    },
+    "description": {
+      "translate": "advancements.diversity_of_flowers_neo.master_florist.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "aster_daisy": { "trigger": "minecraft:impossible" },
+    "yellow_tulip": { "trigger": "minecraft:impossible" },
+    "yellow_poppy": { "trigger": "minecraft:impossible" },
+    "yellow_orchid": { "trigger": "minecraft:impossible" },
+    "white_poppy": { "trigger": "minecraft:impossible" },
+    "white_orchid": { "trigger": "minecraft:impossible" },
+    "white_myosotis": { "trigger": "minecraft:impossible" },
+    "white_allium": { "trigger": "minecraft:impossible" },
+
+    "purple_tulip": { "trigger": "minecraft:impossible" },
+    "purple_orchid": { "trigger": "minecraft:impossible" },
+    "pink_poppy": { "trigger": "minecraft:impossible" },
+    "pink_orchid": { "trigger": "minecraft:impossible" },
+    "pink_myosotis": { "trigger": "minecraft:impossible" },
+    "orange_poppy": { "trigger": "minecraft:impossible" },
+    "gloriosa_daisy": { "trigger": "minecraft:impossible" },
+
+    "blue_tulip": { "trigger": "minecraft:impossible" },
+    "blue_myosotis": { "trigger": "minecraft:impossible" },
+    "blue_allium": { "trigger": "minecraft:impossible" },
+    "black_tulip": { "trigger": "minecraft:impossible" },
+
+    "yellow_rose_bush": { "trigger": "minecraft:impossible" },
+    "ashen_sage": { "trigger": "minecraft:impossible" },
+    "white_peony": { "trigger": "minecraft:impossible" },
+    "golden_sage": { "trigger": "minecraft:impossible" },
+    "white_rose_bush": { "trigger": "minecraft:impossible" },
+
+    "magenta_rose_bush": { "trigger": "minecraft:impossible" },
+    "violet_sage": { "trigger": "minecraft:impossible" },
+    "azure_sage": { "trigger": "minecraft:impossible" },
+    "purple_rose_bush": { "trigger": "minecraft:impossible" },
+    "scarlet_sage": { "trigger": "minecraft:impossible" },
+
+    "red_peony": { "trigger": "minecraft:impossible" },
+    "pink_rose_bush": { "trigger": "minecraft:impossible" },
+    "pink_peony": { "trigger": "minecraft:impossible" },
+    "orange_rose_bush": { "trigger": "minecraft:impossible" },
+
+    "moonflower": { "trigger": "minecraft:impossible" },
+    "snow_dandelion": { "trigger": "minecraft:impossible" },
+
+    "purple_anemone": { "trigger": "minecraft:impossible" },
+    "peach_anemone": { "trigger": "minecraft:impossible" },
+    "night_anemone": { "trigger": "minecraft:impossible" },
+    "pink_anemone": { "trigger": "minecraft:impossible" },
+    "turquoise_anemone": { "trigger": "minecraft:impossible" },
+    "yellow_anemone": { "trigger": "minecraft:impossible" },
+
+    "red_fagusa": { "trigger": "minecraft:impossible" },
+    "blue_fagusa": { "trigger": "minecraft:impossible" },
+    "green_fagusa": { "trigger": "minecraft:impossible" },
+    "heart_flower": { "trigger": "minecraft:impossible" },
+    "purple_periwinkle": { "trigger": "minecraft:impossible" },
+    "red_periwinkle": { "trigger": "minecraft:impossible" },
+    "blue_periwinkle": { "trigger": "minecraft:impossible" },
+    "almius": { "trigger": "minecraft:impossible" },
+    "water_keraliy": { "trigger": "minecraft:impossible" }
+  }
+}

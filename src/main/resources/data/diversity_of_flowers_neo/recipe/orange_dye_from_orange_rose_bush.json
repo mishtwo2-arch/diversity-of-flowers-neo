@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "diversity_of_flowers_neo:orange_rose_bush"
+    }
+  ],
+  "result": {
+    "id": "minecraft:orange_dye",
+    "count": 2
+  }
+}

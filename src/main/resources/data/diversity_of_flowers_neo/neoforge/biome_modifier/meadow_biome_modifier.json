@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:meadow"
+  ],
+  "features": [
+    "diversity_of_flowers_neo:blue_allium",
+    "diversity_of_flowers_neo:blue_myosotis",
+    "diversity_of_flowers_neo:pink_myosotis",
+    "diversity_of_flowers_neo:white_allium",
+    "diversity_of_flowers_neo:white_myosotis"
+  ],
+  "step": "vegetal_decoration"
+}

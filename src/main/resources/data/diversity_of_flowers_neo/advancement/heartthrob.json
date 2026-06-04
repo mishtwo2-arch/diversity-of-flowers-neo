@@ -1,0 +1,32 @@
+{
+  "parent": "diversity_of_flowers_neo:first_step",
+
+  "display": {
+    "icon": {
+      "id": "diversity_of_flowers_neo:heart_flower"
+    },
+    "title": {
+      "translate": "advancements.diversity_of_flowers_neo.heartthrob.title"
+    },
+    "description": {
+      "translate": "advancements.diversity_of_flowers_neo.heartthrob.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "eat_heart_flower": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "diversity_of_flowers_neo:heart_flower"
+          ]
+        }
+      }
+    }
+  }
+}

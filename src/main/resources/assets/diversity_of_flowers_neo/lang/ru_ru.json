@@ -1,0 +1,188 @@
+{
+  "block.diversity_of_flowers_neo.aster_daisy": "Астра-маргаритка",
+  "item.diversity_of_flowers_neo.aster_daisy": "Астра-маргаритка",
+
+  "block.diversity_of_flowers_neo.yellow_tulip": "Жёлтый тюльпан",
+  "item.diversity_of_flowers_neo.yellow_tulip": "Жёлтый тюльпан",
+
+  "block.diversity_of_flowers_neo.yellow_poppy": "Жёлтый мак",
+  "item.diversity_of_flowers_neo.yellow_poppy": "Жёлтый мак",
+
+  "block.diversity_of_flowers_neo.yellow_orchid": "Жёлтая орхидея",
+  "item.diversity_of_flowers_neo.yellow_orchid": "Жёлтая орхидея",
+
+  "block.diversity_of_flowers_neo.white_poppy": "Белый мак",
+  "item.diversity_of_flowers_neo.white_poppy": "Белый мак",
+
+  "block.diversity_of_flowers_neo.white_orchid": "Белая орхидея",
+  "item.diversity_of_flowers_neo.white_orchid": "Белая орхидея",
+
+  "block.diversity_of_flowers_neo.white_myosotis": "Белые незабудки",
+  "item.diversity_of_flowers_neo.white_myosotis": "Белые незабудки",
+
+  "block.diversity_of_flowers_neo.white_allium": "Белый аллиум",
+  "item.diversity_of_flowers_neo.white_allium": "Белый аллиум",
+
+  "block.diversity_of_flowers_neo.purple_tulip": "Фиолетовый тюльпан",
+  "item.diversity_of_flowers_neo.purple_tulip": "Фиолетовый тюльпан",
+
+  "block.diversity_of_flowers_neo.purple_orchid": "Фиолетовая орхидея",
+  "item.diversity_of_flowers_neo.purple_orchid": "Фиолетовая орхидея",
+
+  "block.diversity_of_flowers_neo.pink_poppy": "Розовый мак",
+  "item.diversity_of_flowers_neo.pink_poppy": "Розовый мак",
+
+  "block.diversity_of_flowers_neo.pink_orchid": "Розовая орхидея",
+  "item.diversity_of_flowers_neo.pink_orchid": "Розовая орхидея",
+
+  "block.diversity_of_flowers_neo.pink_myosotis": "Розовые незабудки",
+  "item.diversity_of_flowers_neo.pink_myosotis": "Розовые незабудки",
+
+  "block.diversity_of_flowers_neo.orange_poppy": "Оранжевый мак",
+  "item.diversity_of_flowers_neo.orange_poppy": "Оранжевый мак",
+
+  "block.diversity_of_flowers_neo.gloriosa_daisy": "Маргаритка-глориоза",
+  "item.diversity_of_flowers_neo.gloriosa_daisy": "Маргаритка-глориоза",
+
+  "block.diversity_of_flowers_neo.blue_tulip": "Синий тюльпан",
+  "item.diversity_of_flowers_neo.blue_tulip": "Синий тюльпан",
+
+  "block.diversity_of_flowers_neo.blue_myosotis": "Синие незабудки",
+  "item.diversity_of_flowers_neo.blue_myosotis": "Синие незабудки",
+
+  "block.diversity_of_flowers_neo.blue_allium": "Синий аллиум",
+  "item.diversity_of_flowers_neo.blue_allium": "Синий аллиум",
+
+  "block.diversity_of_flowers_neo.snow_dandelion": "Снежный одуванчик",
+  "item.diversity_of_flowers_neo.snow_dandelion": "Снежный одуванчик",
+
+  "block.diversity_of_flowers_neo.black_tulip": "Чёрный тюльпан",
+  "item.diversity_of_flowers_neo.black_tulip": "Чёрный тюльпан",
+
+  "block.diversity_of_flowers_neo.yellow_rose_bush": "Жёлтый куст роз",
+  "item.diversity_of_flowers_neo.yellow_rose_bush": "Жёлтый куст роз",
+
+  "block.diversity_of_flowers_neo.ashen_sage": "Пепельный шалфей",
+  "item.diversity_of_flowers_neo.ashen_sage": "Пепельный шалфей",
+
+  "block.diversity_of_flowers_neo.white_peony": "Белый пион",
+  "item.diversity_of_flowers_neo.white_peony": "Белый пион",
+
+  "block.diversity_of_flowers_neo.golden_sage": "Золотой шалфей",
+  "item.diversity_of_flowers_neo.golden_sage": "Золотой шалфей",
+
+  "block.diversity_of_flowers_neo.white_rose_bush": "Белый куст роз",
+  "item.diversity_of_flowers_neo.white_rose_bush": "Белый куст роз",
+
+  "block.diversity_of_flowers_neo.magenta_rose_bush": "Пурпурный куст роз",
+  "item.diversity_of_flowers_neo.magenta_rose_bush": "Пурпурный куст роз",
+
+  "block.diversity_of_flowers_neo.violet_sage": "Фиолетовый шалфей",
+  "item.diversity_of_flowers_neo.violet_sage": "Фиолетовый шалфей",
+
+  "block.diversity_of_flowers_neo.azure_sage": "Лазурный шалфей",
+  "item.diversity_of_flowers_neo.azure_sage": "Лазурный шалфей",
+
+  "block.diversity_of_flowers_neo.purple_rose_bush": "Фиолетовый куст роз",
+  "item.diversity_of_flowers_neo.purple_rose_bush": "Фиолетовый куст роз",
+
+  "block.diversity_of_flowers_neo.scarlet_sage": "Алый шалфей",
+  "item.diversity_of_flowers_neo.scarlet_sage": "Алый шалфей",
+
+  "block.diversity_of_flowers_neo.red_peony": "Красный пион",
+  "item.diversity_of_flowers_neo.red_peony": "Красный пион",
+
+  "block.diversity_of_flowers_neo.pink_rose_bush": "Розовый куст роз",
+  "item.diversity_of_flowers_neo.pink_rose_bush": "Розовый куст роз",
+
+  "block.diversity_of_flowers_neo.pink_peony": "Розовый пион",
+  "item.diversity_of_flowers_neo.pink_peony": "Розовый пион",
+
+  "block.diversity_of_flowers_neo.orange_rose_bush": "Оранжевый куст роз",
+  "item.diversity_of_flowers_neo.orange_rose_bush": "Оранжевый куст роз",
+
+  "block.diversity_of_flowers_neo.moonflower": "Цветок луны",
+  "item.diversity_of_flowers_neo.moonflower": "Цветок луны",
+
+  "block.diversity_of_flowers_neo.purple_anemone": "Фиолетовый анемон",
+  "item.diversity_of_flowers_neo.purple_anemone": "Фиолетовый анемон",
+
+  "block.diversity_of_flowers_neo.turquoise_anemone": "Бирюзовый анемон",
+  "item.diversity_of_flowers_neo.turquoise_anemone": "Бирюзовый анемон",
+
+  "block.diversity_of_flowers_neo.peach_anemone": "Персиковый анемон",
+  "item.diversity_of_flowers_neo.peach_anemone": "Персиковый анемон",
+
+  "block.diversity_of_flowers_neo.night_anemone": "Ночной анемон",
+  "item.diversity_of_flowers_neo.night_anemone": "Ночной анемон",
+
+  "block.diversity_of_flowers_neo.pink_anemone": "Розовый анемон",
+  "item.diversity_of_flowers_neo.pink_anemone": "Розовый анемон",
+
+  "block.diversity_of_flowers_neo.yellow_anemone": "Жёлтый анемон",
+  "item.diversity_of_flowers_neo.yellow_anemone": "Жёлтый анемон",
+
+  "block.diversity_of_flowers_neo.heart_flower": "Сердцецвет",
+  "item.diversity_of_flowers_neo.heart_flower": "Сердцецвет",
+
+  "block.diversity_of_flowers_neo.purple_periwinkle": "Пурпурный барвинок",
+  "item.diversity_of_flowers_neo.purple_periwinkle": "Пурпурный барвинок",
+
+  "block.diversity_of_flowers_neo.red_periwinkle": "Красный барвинок",
+  "item.diversity_of_flowers_neo.red_periwinkle": "Красный барвинок",
+
+  "block.diversity_of_flowers_neo.blue_periwinkle": "Синий барвинок",
+  "item.diversity_of_flowers_neo.blue_periwinkle": "Синий барвинок",
+
+  "block.diversity_of_flowers_neo.almius": "Альмиус",
+  "item.diversity_of_flowers_neo.almius": "Альмиус",
+
+  "block.diversity_of_flowers_neo.red_fagusa": "Красная фагуса",
+  "item.diversity_of_flowers_neo.red_fagusa": "Красная фагуса",
+
+  "block.diversity_of_flowers_neo.blue_fagusa": "Голубая фагуса",
+  "item.diversity_of_flowers_neo.blue_fagusa": "Голубая фагуса",
+
+  "block.diversity_of_flowers_neo.green_fagusa": "Зелёная фагуса",
+  "item.diversity_of_flowers_neo.green_fagusa": "Зелёная фагуса",
+
+  "block.diversity_of_flowers_neo.water_keraliy": "Водный кералий",
+  "item.diversity_of_flowers_neo.water_keraliy": "Водный кералий",
+
+  "itemGroup.diversity_of_flowers_neo": "Diversity Of Flowers Neo",
+
+  "itemGroup.diversity_of_flowers_neo_items": "Diversity Of Flowers Neo предметы",
+
+  "advancements.diversity_of_flowers_neo.first_step.title": "Первый шаг",
+  "advancements.diversity_of_flowers_neo.first_step.description": "Подберите любой цветок из diversity_of_flowers_neo",
+
+  "advancements.diversity_of_flowers_neo.root.title": "diversity_of_flowers",
+  "advancements.diversity_of_flowers_neo.root.description": "Добро пожаловать в мир цветов!",
+
+  "advancements.diversity_of_flowers_neo.snowbound_dandelion.title": "Затерянный в снегах",
+  "advancements.diversity_of_flowers_neo.snowbound_dandelion.description": "Найдите снежный одуванчик в снежных равнинах, снежной тайге или ледяных пиках",
+
+  "advancements.diversity_of_flowers_neo.almost_there.title": "Ещё чуть чуть..",
+  "advancements.diversity_of_flowers_neo.almost_there.description": "Соберите 43 из 50 цветов",
+
+  "advancements.diversity_of_flowers_neo.great_rarity.title": "Огромная редкость",
+  "advancements.diversity_of_flowers_neo.great_rarity.description": "Найдите редчайший лунный цветок в подсолнечных полях",
+
+  "advancements.diversity_of_flowers_neo.master_florist.title": "Мастер флорист",
+  "advancements.diversity_of_flowers_neo.master_florist.description": "Все цветы!",
+
+  "advancements.diversity_of_flowers_neo.river_flowers.title": "Речные цветы",
+  "advancements.diversity_of_flowers_neo.river_flowers.description": "Соберите все цветы, растущие только недалеко от реки",
+
+  "item.diversity_of_flowers_neo.moon_star": "Звезда луны",
+
+  "item.diversity_of_flowers_neo.moon_star.desc1": "Стоит лишь капнуть слезой гаста —",
+  "item.diversity_of_flowers_neo.moon_star.desc2": "и сила Незера пробудится в ней",
+
+  "advancements.diversity_of_flowers_neo.windswept_curiosity.title": "Выветренная диковинка",
+  "advancements.diversity_of_flowers_neo.windswept_curiosity.description": "Найдите Альмиус в выветренных холмах или выветренных лесах",
+
+  "advancements.diversity_of_flowers_neo.heartthrob.title": "Cердцеед",
+  "advancements.diversity_of_flowers_neo.heartthrob.description": "Надите в тёмном лесу сердецвет, дающий регенирацию.. И съешьте его!"
+
+}

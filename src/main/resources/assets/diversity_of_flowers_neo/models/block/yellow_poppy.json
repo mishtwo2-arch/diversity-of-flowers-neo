@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "diversity_of_flowers_neo:block/yellow_poppy",
+    "particle": "diversity_of_flowers_neo:block/yellow_poppy"
+  },
+  "render_type": "cutout"
+}

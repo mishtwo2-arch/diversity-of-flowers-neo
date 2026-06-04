@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes":
+    "minecraft:plains",
+  "features": [
+    "diversity_of_flowers_neo:black_tulip",
+    "diversity_of_flowers_neo:blue_tulip",
+    "diversity_of_flowers_neo:purple_tulip",
+    "diversity_of_flowers_neo:yellow_tulip",
+    "diversity_of_flowers_neo:violet_sage"
+  ],
+  "step": "vegetal_decoration"
+}

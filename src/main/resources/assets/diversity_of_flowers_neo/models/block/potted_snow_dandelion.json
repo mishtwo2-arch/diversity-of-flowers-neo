@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/flower_pot_cross",
+  "textures": {
+    "cross": "diversity_of_flowers_neo:block/snow_dandelion",
+    "plant": "diversity_of_flowers_neo:block/snow_dandelion"
+  },
+  "render_type": "cutout"
+}

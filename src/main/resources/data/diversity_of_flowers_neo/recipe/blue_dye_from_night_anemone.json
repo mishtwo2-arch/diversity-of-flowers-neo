@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "diversity_of_flowers_neo:night_anemone"
+    }
+  ],
+  "result": {
+    "id": "minecraft:blue_dye",
+    "count": 2
+  }
+}

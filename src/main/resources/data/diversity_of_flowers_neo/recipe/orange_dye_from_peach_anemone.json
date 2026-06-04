@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "diversity_of_flowers_neo:peach_anemone"
+    }
+  ],
+  "result": {
+    "id": "minecraft:orange_dye",
+    "count": 2
+  }
+}

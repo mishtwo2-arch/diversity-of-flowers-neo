@@ -1,0 +1,154 @@
+1. Almius (Альмиус) - "minecraft:windswept_hills",
+                      "minecraft:windswept_gravelly_hills",
+                      "minecraft:windswept_forest"
+
+2. Ashen Sage (Пепельный шалфей) - "minecraft:snowy_plains",
+                                   "minecraft:snowy_taiga",
+                                   "minecraft:ice_spikes"
+
+3. Aster Daisy (Астра-маргаритка) - "minecraft:flower_forest"
+
+4. Azure Sage (Лазурный шалфей) - "minecraft:river"
+
+5. Black Tulip (Чёрный тюльпан) - "minecraft:plains"
+
+6. Blue Allium (Синий аллиум) - "minecraft:flower_forest",
+                                "minecraft:meadow"
+
+7. Blue Fagusa (Голубая фагуса) - "minecraft:swamp"
+
+8. Blue Myosotis (Синие незабудки) - "minecraft:meadow"
+
+9. Blue Periwinkle (Синий барвинок) - "minecraft:old_growth_birch_forest",
+                                      "minecraft:birch_forest",
+                                      "minecraft:flower_forest",
+                                      "minecraft:forest"
+
+10. Blue Tulip (Синий тюльпан) - "minecraft:plains"
+
+11. Gloriosa Daisy (Маргаритка-глориоза) - "minecraft:dark_forest",
+                                           "minecraft:flower_forest",
+                                           "minecraft:sunflower_plains"
+
+12. Golden Sage (Золотой шалфей) - "minecraft:savanna",
+                                   "minecraft:savanna_plateau"
+
+13. Green Fagusa (Зелёная фагуса) - "minecraft:swamp"
+
+14. Heart Flower (Сердцецвет) - "minecraft:dark_forest"
+
+15. Magenta Rose Bush (Пурпурный куст роз) - "minecraft:dark_forest"
+
+16. Moonflower (Цветок луны) - "minecraft:sunflower_plains"
+
+17. Night Anemone (Ночной анемон) - "minecraft:savanna",
+                                    "minecraft:savanna_plateau"
+
+18. Orange Poppy (Оранжевый мак) - "minecraft:taiga",
+                                   "minecraft:old_growth_pine_taiga",
+                                   "minecraft:old_growth_spruce_taiga"
+
+19. Orange Rose Bush (Оранжевый куст роз) - "minecraft:old_growth_birch_forest",
+                                            "minecraft:birch_forest",
+                                            "minecraft:flower_forest",
+                                            "minecraft:forest"
+
+20. Peach Anemone (Персиковый анемон) - "minecraft:savanna",
+                                        "minecraft:savanna_plateau"
+
+21. Pink Anemone (Розовый анемон) - "sparse_jungle",
+                                    "jungle"
+
+22. Pink Myosotis (Розовые незабудки) - "minecraft:meadow"
+
+23. Pink Orchid (Розовая орхидея) - "sparse_jungle",
+                                    "jungle"
+
+24. Pink Peony (Розовый пион) - "minecraft:old_growth_birch_forest",
+                                "minecraft:birch_forest",
+                                "minecraft:flower_forest",
+                                "minecraft:forest"
+
+25. Pink Poppy (Розовый мак) - "minecraft:taiga",
+                               "minecraft:old_growth_pine_taiga",
+                               "minecraft:old_growth_spruce_taiga"
+
+26. Pink Rose Bush (Розовый куст роз) - "minecraft:old_growth_birch_forest",
+                                        "minecraft:birch_forest",
+                                        "minecraft:flower_forest",
+                                        "minecraft:forest"
+
+27. Purple Anemone (Фиолетовый анемон) - "minecraft:taiga",
+                                         "minecraft:old_growth_pine_taiga",
+                                         "minecraft:old_growth_spruce_taiga"
+
+28. Purple Orchid (Фиолетовая орхидея) - "sparse_jungle",
+                                         "jungle"
+
+29. Purple Periwinkle (Пурпурный барвинок) - "minecraft:old_growth_birch_forest",
+                                             "minecraft:birch_forest",
+                                             "minecraft:flower_forest",
+                                             "minecraft:forest"
+
+30. Purple Rose Bush (Фиолетовый куст роз) - "minecraft:dark_forest"
+
+31. Purple Tulip (Фиолетовый тюльпан) - "minecraft:plains"
+
+32. Red Fagusa (Красная фагуса) - "minecraft:swamp"
+
+33. Red Periwinkle (Красный барвинок) - "minecraft:old_growth_birch_forest",
+                                            "minecraft:birch_forest",
+                                            "minecraft:flower_forest",
+                                            "minecraft:forest"
+
+34. Red Peony (Красный пион) - "minecraft:dark_forest"
+
+35. Scarlet Sage (Алый шалфей) - "minecraft:savanna",
+                                 "minecraft:savanna_plateau"
+
+36. Snow Dandelion (Снежный одуванчик) - "minecraft:snowy_plains",
+                                         "minecraft:snowy_taiga",
+                                         "minecraft:ice_spikes"
+
+37. Turquoise Anemone (Бирюзовый анемон) - "minecraft:river"
+
+38. Violet Sage (Фиолетовый шалфей) - "minecraft:plains"
+
+39. Water Keraliy (Водный кералий) - "minecraft:river"
+
+40. White Allium (Белый аллиум) - "diversity_of_flowers_neo:white_allium",
+                                  "minecraft:meadow"
+
+41. White Myosotis (Белые незабудки) - "minecraft:meadow"
+
+42. White Orchid (Белая орхидея) - "sparse_jungle",
+                                   "jungle"
+
+43. White Peony (Белый пион) - "minecraft:old_growth_birch_forest",
+                               "minecraft:birch_forest",
+                               "minecraft:flower_forest",
+                               "minecraft:forest"
+
+44. White Poppy (Белый мак) - "minecraft:taiga",
+                              "minecraft:old_growth_pine_taiga",
+                              "minecraft:old_growth_spruce_taiga"
+
+45. White Rose Bush (Белый куст роз) - "minecraft:old_growth_birch_forest",
+                                       "minecraft:birch_forest",
+                                       "minecraft:flower_forest",
+                                       "minecraft:forest"
+
+46. Yellow Anemone (Жёлтый анемон) - "minecraft:swamp"
+47. Yellow Orchid (Жёлтая орхидея) - "sparse_jungle",
+                                     "jungle"
+
+48. Yellow Poppy (Жёлтый мак) - "minecraft:taiga",
+                                "minecraft:old_growth_pine_taiga",
+                                "minecraft:old_growth_spruce_taiga"
+
+49. Yellow Rose Bush (Жёлтый куст роз) - "minecraft:old_growth_birch_forest",
+                                         "minecraft:birch_forest",
+                                         "minecraft:flower_forest",
+                                         "minecraft:forest"
+
+50. Yellow Tulip (Жёлтый тюльпан) - "minecraft:plains"

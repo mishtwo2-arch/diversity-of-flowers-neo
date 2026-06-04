@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "diversity_of_flowers_neo:block/water_keraliy",
+    "particle": "diversity_of_flowers_neo:block/water_keraliy"
+  },
+  "render_type": "cutout"
+}

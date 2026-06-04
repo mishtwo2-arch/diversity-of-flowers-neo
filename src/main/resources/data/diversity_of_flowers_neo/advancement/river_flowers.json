@@ -1,0 +1,25 @@
+{
+  "parent": "diversity_of_flowers_neo:first_step",
+
+  "display": {
+    "icon": {
+      "id": "diversity_of_flowers_neo:turquoise_anemone"
+    },
+    "title": {
+      "translate": "advancements.diversity_of_flowers_neo.river_flowers.title"
+    },
+    "description": {
+      "translate": "advancements.diversity_of_flowers_neo.river_flowers.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "azure_sage": { "trigger": "minecraft:impossible" },
+    "turquoise_anemone": { "trigger": "minecraft:impossible" },
+    "water_keraliy": { "trigger": "minecraft:impossible" }
+  }
+}

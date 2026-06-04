@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:sunflower_plains"
+  ],
+  "features": [
+    "diversity_of_flowers_neo:gloriosa_daisy",
+    "diversity_of_flowers_neo:moonflower"
+  ],
+  "step": "vegetal_decoration"
+}

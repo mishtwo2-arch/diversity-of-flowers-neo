@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "diversity_of_flowers_neo:block/ashen_sage_bottom"
+    },
+    "half=upper": {
+      "model": "diversity_of_flowers_neo:block/ashen_sage_top"
+    }
+  }
+}

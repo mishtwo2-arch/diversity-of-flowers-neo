@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "river",
+  "features": [
+    "diversity_of_flowers_neo:azure_sage",
+    "diversity_of_flowers_neo:water_keraliy",
+    "diversity_of_flowers_neo:turquoise_anemone"
+  ],
+  "step": "vegetal_decoration"
+}
