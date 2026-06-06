@@ -298,10 +298,11 @@ public class ModBlocks {
     public static final  DeferredBlock<Block> EBES =
             BLOCKS.register("ebes",ModBlocks::createEndFlower);
 
-    public static final  DeferredBlock<Block> POTTED_EBES =
-            BLOCKS.register("potted_ebes",() -> createPotted(EBES));
+    public static final DeferredBlock<Block> POTTED_EBES =
+            BLOCKS.register("potted_ebes", () -> createPotted(EBES));
 
-
+public static final DeferredBlock<Block> EBER =
+        BLOCKS.register("eber", ModBlocks::createEndFlower);
 
 
     public static final DeferredBlock<Block> SNOW_DANDELION =

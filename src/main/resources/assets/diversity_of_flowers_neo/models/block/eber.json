@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "diversity_of_flowers_neo:block/eber",
+    "particle": "diversity_of_flowers_neo:block/eber"
+  },
+  "render_type": "cutout"
+}

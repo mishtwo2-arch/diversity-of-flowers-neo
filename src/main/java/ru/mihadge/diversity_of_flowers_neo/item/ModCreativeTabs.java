@@ -74,6 +74,7 @@ public class ModCreativeTabs {
                         output.accept(ModItems.MOONFLOWER_ITEM);
 
                         output.accept(ModItems.EBES);
+                        output.accept(ModItems.EBER);
 
                     })
                     .build());
