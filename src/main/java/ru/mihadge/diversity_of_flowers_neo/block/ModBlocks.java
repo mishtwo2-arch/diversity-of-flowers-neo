@@ -30,6 +30,21 @@ public class ModBlocks {
                         .offsetType(BlockBehaviour.OffsetType.XZ)
         );
     }
+
+    private static Block createEndFlower() {
+        return new ModEndFlower(
+                MobEffects.LUCK,
+                0.0F,
+                BlockBehaviour.Properties.of()
+                        .mapColor(MapColor.PLANT)
+                        .noCollission()
+                        .instabreak()
+                        .sound(SoundType.GRASS)
+                        .offsetType(BlockBehaviour.OffsetType.XZ)
+
+        );
+    }
+
     private static Block createPotted(DeferredBlock<Block> flower) {
         return new FlowerPotBlock(
                 () -> (FlowerPotBlock) Blocks.FLOWER_POT,
@@ -279,6 +294,16 @@ public class ModBlocks {
     public static final DeferredBlock<Block> POTTED_BLACK_TULIP =
             BLOCKS.register("potted_black_tulip", () -> createPotted(BLACK_TULIP));
 
+
+    public static final  DeferredBlock<Block> EBES =
+            BLOCKS.register("ebes",ModBlocks::createEndFlower);
+
+    public static final  DeferredBlock<Block> POTTED_EBES =
+            BLOCKS.register("potted_ebes",() -> createPotted(EBES));
+
+
+
+
     public static final DeferredBlock<Block> SNOW_DANDELION =
             BLOCKS.register("snow_dandelion",
                     () -> new ModSnowFlower(
@@ -406,6 +431,7 @@ public class ModBlocks {
                 pot.addPlant(BLUE_FAGUSA.getId(), POTTED_BLUE_FAGUSA);
                 pot.addPlant(GREEN_FAGUSA.getId(), POTTED_GREEN_FAGUSA);
                 pot.addPlant(WATER_KERALIY.getId(), POTTED_WATER_KERALIY);
+                pot.addPlant(EBES.getId(), POTTED_EBES);
 
             });
         });

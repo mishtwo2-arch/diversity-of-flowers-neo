@@ -260,6 +260,10 @@ public class ModItems {
             ITEMS.register("moon_star",
                     () -> new IsFoil(new Item.Properties()));
 
+    public static final DeferredItem<Item> EBES =
+            ITEMS.register( "ebes",
+                    () -> new BlockItem(ModBlocks.EBES.get(), new Item.Properties()));
+
 
     public static final DeferredItem<Item> TEST_ITEM =
             ITEMS.register("test",

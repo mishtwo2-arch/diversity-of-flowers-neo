@@ -55,7 +55,7 @@ public class ModCreativeTabs {
                         output.accept(ModItems.GREEN_FAGUSA_ITEM);
                         output.accept(ModItems.WATER_KERALIY_ITEM);
 
-                        //output.accept(ModItems.TEST_ITEM);
+                        output.accept(ModItems.TEST_ITEM);
 
                         output.accept(ModItems.YELLOW_ROSE_BUSH_ITEM);
                         output.accept(ModItems.ASHEN_SAGE_ITEM);
@@ -72,6 +72,8 @@ public class ModCreativeTabs {
                         output.accept(ModItems.PINK_PEONY_ITEM);
                         output.accept(ModItems.ORANGE_ROSE_BUSH_ITEM);
                         output.accept(ModItems.MOONFLOWER_ITEM);
+
+                        output.accept(ModItems.EBES);
 
                     })
                     .build());
