@@ -19,6 +19,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Blocks;
 import ru.mihadge.diversity_of_flowers_neo.item.ModItems;
 import ru.mihadge.diversity_of_flowers_neo.item.ModCreativeTabs;
+import ru.mihadge.diversity_of_flowers_neo.worldgen.ModFeatures;
 
 
 @Mod(DiversityOfFlowersNeo.MODID)
@@ -50,6 +51,7 @@ public class DiversityOfFlowersNeo {
         ModItems.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
         ModItemCreativeTabs.register(modEventBus);
+        ModFeatures.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
 
