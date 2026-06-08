@@ -9,8 +9,9 @@
 
   ],
   "features": [
-    "diversity_of_flowers_neo:abyss",
-    "diversity_of_flowers_neo:abyss_s_sprout"
+    //"diversity_of_flowers_neo:abyss",
+    //"diversity_of_flowers_neo:abyss_s_sprout",
+    "diversity_of_flowers_neo:abyss_feature"
   ],
   "step": "vegetal_decoration"
 }
