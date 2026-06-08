@@ -11,7 +11,7 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "diversity_of_flowers_neo:eber"
+              "Name": "diversity_of_flowers_neo:abyss_s_sprout"
             }
           }
         }
@@ -25,7 +25,7 @@
               {
                 "type": "minecraft:would_survive",
                 "state": {
-                  "Name": "diversity_of_flowers_neo:eber"
+                  "Name": "diversity_of_flowers_neo:abyss_s_sprout"
                 }
               },
               {

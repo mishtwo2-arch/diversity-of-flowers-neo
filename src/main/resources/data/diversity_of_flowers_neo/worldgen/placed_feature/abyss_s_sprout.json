@@ -1,9 +1,9 @@
 {
-  "feature": "diversity_of_flowers_neo:ebes",
+  "feature": "diversity_of_flowers_neo:abyss_s_sprout",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 10
+      "chance": 8
     },
     {
       "type": "minecraft:in_square"

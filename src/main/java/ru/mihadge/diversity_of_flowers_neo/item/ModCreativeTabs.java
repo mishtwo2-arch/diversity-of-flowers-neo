@@ -73,8 +73,8 @@ public class ModCreativeTabs {
                         output.accept(ModItems.ORANGE_ROSE_BUSH_ITEM);
                         output.accept(ModItems.MOONFLOWER_ITEM);
 
-                        output.accept(ModItems.EBES);
-                        output.accept(ModItems.EBER);
+                        output.accept(ModItems.ABYSS);
+                        output.accept(ModItems.ABYSS_S_SPROUT);
 
                     })
                     .build());

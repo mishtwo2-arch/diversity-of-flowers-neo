@@ -260,13 +260,13 @@ public class ModItems {
             ITEMS.register("moon_star",
                     () -> new IsFoil(new Item.Properties()));
 
-    public static final DeferredItem<Item> EBES =
-            ITEMS.register( "ebes",
-                    () -> new BlockItem(ModBlocks.EBES.get(), new Item.Properties()));
+    public static final DeferredItem<Item> ABYSS =
+            ITEMS.register( "abyss",
+                    () -> new BlockItem(ModBlocks.ABYSS.get(), new Item.Properties()));
 
-    public static final DeferredItem<Item> EBER =
-            ITEMS.register( "eber",
-                    () -> new BlockItem(ModBlocks.EBER.get(), new Item.Properties()));
+    public static final DeferredItem<Item> ABYSS_S_SPROUT =
+            ITEMS.register( "abyss_s_sprout",
+                    () -> new BlockItem(ModBlocks.ABYSS_S_SPROUT.get(), new Item.Properties()));
 
 
     public static final DeferredItem<Item> TEST_ITEM =

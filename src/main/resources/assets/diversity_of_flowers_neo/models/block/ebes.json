@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "diversity_of_flowers_neo:block/ebes",
-    "particle": "diversity_of_flowers_neo:block/ebes"
-  },
-  "render_type": "cutout"
-}

@@ -295,14 +295,14 @@ public class ModBlocks {
             BLOCKS.register("potted_black_tulip", () -> createPotted(BLACK_TULIP));
 
 
-    public static final  DeferredBlock<Block> EBES =
-            BLOCKS.register("ebes",ModBlocks::createEndFlower);
+    public static final  DeferredBlock<Block> ABYSS =
+            BLOCKS.register("abyss",ModBlocks::createEndFlower);
 
-    public static final DeferredBlock<Block> POTTED_EBES =
-            BLOCKS.register("potted_ebes", () -> createPotted(EBES));
+    public static final DeferredBlock<Block> POTTED_ABYSS =
+            BLOCKS.register("potted_abyss", () -> createPotted(ABYSS));
 
-public static final DeferredBlock<Block> EBER =
-        BLOCKS.register("eber", ModBlocks::createEndFlower);
+public static final DeferredBlock<Block> ABYSS_S_SPROUT =
+        BLOCKS.register("abyss_s_sprout", ModBlocks::createEndFlower);
 
 
     public static final DeferredBlock<Block> SNOW_DANDELION =
@@ -432,7 +432,7 @@ public static final DeferredBlock<Block> EBER =
                 pot.addPlant(BLUE_FAGUSA.getId(), POTTED_BLUE_FAGUSA);
                 pot.addPlant(GREEN_FAGUSA.getId(), POTTED_GREEN_FAGUSA);
                 pot.addPlant(WATER_KERALIY.getId(), POTTED_WATER_KERALIY);
-                pot.addPlant(EBES.getId(), POTTED_EBES);
+                pot.addPlant(ABYSS.getId(), POTTED_ABYSS);
 
             });
         });
