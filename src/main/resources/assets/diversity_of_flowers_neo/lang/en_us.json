@@ -156,10 +156,15 @@
 
   "block.diversity_of_flowers_neo.abyss_s_sprout": "Abyss's sprout",
   "item.diversity_of_flowers_neo.abyss_s_sprout": "Abyss's sprout",
+
+  "block.diversity_of_flowers_neo.eclipse": "Eclipse",
+  "item.diversity_of_flowers_neo.eclipse": "Eclipse",
   
   "itemGroup.diversity_of_flowers_neo": "Diversity Of Flowers Neo",
 
   "itemGroup.diversity_of_flowers_neo_items": "Diversity Of Flowers Neo Items",
+
+  "itemGroup.diversity_of_flowers_neo_end": "Diversity Of Flowers Neo End",
 
   "advancements.diversity_of_flowers_neo.first_step.title": "First Step",
   "advancements.diversity_of_flowers_neo.first_step.description": "Pick up any flower from the diversity_of_flowers_neo",
@@ -191,6 +196,15 @@
   "advancements.diversity_of_flowers_neo.windswept_curiosity.description": "Find Almius in Windswept Hills or Windswept Forest",
 
   "advancements.diversity_of_flowers_neo.heartthrob.title": "Heartthrob",
-  "advancements.diversity_of_flowers_neo.heartthrob.description": "Find a Heart Flower in the Dark Forest, granting regeneration... and eat it!"
+  "advancements.diversity_of_flowers_neo.heartthrob.description": "Find a Heart Flower in the Dark Forest, granting regeneration... and eat it!",
+
+  "advancements.diversity_of_flowers_neo.end_root.title": "Not the end?..",
+  "advancements.diversity_of_flowers_neo.end_root.description": "A new dimension of flowers!",
+
+  "advancements.diversity_of_flowers_neo.new_flora.title": "New flora",
+  "advancements.diversity_of_flowers_neo.new_flora.description": "Collect a couple of common flowers from the new world",
+
+  "advancements.diversity_of_flowers_neo.end_curiosity.title": "End curiosity",
+  "advancements.diversity_of_flowers_neo.end_curiosity.description": "Find rare flowers in the most fertile parts of the End — the end highlands"
 
 }

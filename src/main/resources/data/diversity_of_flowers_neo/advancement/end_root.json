@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "diversity_of_flowers_neo:eclipse"
+    },
+    "title": {
+      "translate": "advancements.diversity_of_flowers_neo.end_root.title"
+    },
+    "description": {
+      "translate": "advancements.diversity_of_flowers_neo.end_root.description"
+    },
+    "background": "minecraft:textures/block/end_stone.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+
+  "criteria": {
+    "auto": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

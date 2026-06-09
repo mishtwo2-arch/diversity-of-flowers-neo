@@ -304,6 +304,12 @@ public class ModBlocks {
 public static final DeferredBlock<Block> ABYSS_S_SPROUT =
         BLOCKS.register("abyss_s_sprout", ModBlocks::createEndFlower);
 
+    public static final  DeferredBlock<Block> ECLIPSE =
+            BLOCKS.register("eclipse",ModBlocks::createEndFlower);
+
+    public static final DeferredBlock<Block> POTTED_ECLIPSE =
+            BLOCKS.register("potted_eclipse", () -> createPotted(ECLIPSE));
+
 
     public static final DeferredBlock<Block> SNOW_DANDELION =
             BLOCKS.register("snow_dandelion",

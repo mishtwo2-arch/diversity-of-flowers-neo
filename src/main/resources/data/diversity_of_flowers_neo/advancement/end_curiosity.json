@@ -1,0 +1,34 @@
+{
+  "parent": "diversity_of_flowers_neo:end_root",
+
+  "display": {
+    "icon": {
+      "id": "diversity_of_flowers_neo:eclipse"
+    },
+    "title": {
+      "translate": "advancements.diversity_of_flowers_neo.end_curiosity.title"
+    },
+    "description": {
+      "translate": "advancements.diversity_of_flowers_neo.end_curiosity.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "got_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "diversity_of_flowers_neo:eclipse"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

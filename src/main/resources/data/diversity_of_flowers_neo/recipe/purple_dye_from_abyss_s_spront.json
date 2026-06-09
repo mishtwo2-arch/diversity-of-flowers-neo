@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "diversity_of_flowers_neo:abyss_s_sprout" },
+    {"item": "diversity_of_flowers_neo:abyss_s_sprout" },
+    { "item": "diversity_of_flowers_neo:abyss_s_sprout" },
+    { "item": "diversity_of_flowers_neo:abyss_s_sprout"
+
+    }
+
+
+  ],
+  "result": {
+    "id": "minecraft:purple_dye",
+    "count": 1
+  }
+}

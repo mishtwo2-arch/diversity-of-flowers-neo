@@ -155,9 +155,14 @@
   "block.diversity_of_flowers_neo.abyss_s_sprout": "Росток эбиса",
   "item.diversity_of_flowers_neo.abyss_s_sprout": "Росток эбиса",
 
+  "block.diversity_of_flowers_neo.eclipse": "Эклипс",
+  "item.diversity_of_flowers_neo.eclipse": "Эклипс",
+
   "itemGroup.diversity_of_flowers_neo": "Diversity Of Flowers Neo",
 
   "itemGroup.diversity_of_flowers_neo_items": "Diversity Of Flowers Neo предметы",
+
+  "itemGroup.diversity_of_flowers_neo_end": "Diversity Of Flowers Neo Энд",
 
   "advancements.diversity_of_flowers_neo.first_step.title": "Первый шаг",
   "advancements.diversity_of_flowers_neo.first_step.description": "Подберите любой цветок из diversity_of_flowers_neo",
@@ -189,6 +194,15 @@
   "advancements.diversity_of_flowers_neo.windswept_curiosity.description": "Найдите Альмиус в выветренных холмах или выветренных лесах",
 
   "advancements.diversity_of_flowers_neo.heartthrob.title": "Cердцеед",
-  "advancements.diversity_of_flowers_neo.heartthrob.description": "Надите в тёмном лесу сердецвет, дающий регенирацию.. И съешьте его!"
+  "advancements.diversity_of_flowers_neo.heartthrob.description": "Надите в тёмном лесу сердецвет, дающий регенирацию.. И съешьте его!",
+
+  "advancements.diversity_of_flowers_neo.end_root.title": "Не конец?..",
+  "advancements.diversity_of_flowers_neo.end_root.description": "Новое измерение цветов!",
+
+  "advancements.diversity_of_flowers_neo.new_flora.title": "Новая флора",
+  "advancements.diversity_of_flowers_neo.new_flora.description": "Соберите пару частых цветов нового мира",
+
+  "advancements.diversity_of_flowers_neo.end_curiosity.title": "Диковинка энда",
+  "advancements.diversity_of_flowers_neo.end_curiosity.description": "Найдите редкие цветы на наиболее плодородных частях энда — хорусовых полях"
 
 }

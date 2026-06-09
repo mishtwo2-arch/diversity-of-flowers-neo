@@ -1,6 +1,7 @@
 package ru.mihadge.diversity_of_flowers_neo;
 
 import ru.mihadge.diversity_of_flowers_neo.block.ModBlocks;
+import ru.mihadge.diversity_of_flowers_neo.item.ModEndCreativeTabs;
 import ru.mihadge.diversity_of_flowers_neo.item.ModItemCreativeTabs;
 import org.slf4j.Logger;
 
@@ -51,6 +52,7 @@ public class DiversityOfFlowersNeo {
         ModItems.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
         ModItemCreativeTabs.register(modEventBus);
+        ModEndCreativeTabs.register(modEventBus);
         ModFeatures.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
