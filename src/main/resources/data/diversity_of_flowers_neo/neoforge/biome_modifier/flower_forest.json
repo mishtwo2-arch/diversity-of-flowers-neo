@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:flower_forest"
+  ],
+  "features": [
+    "diversity_of_flowers_neo:orange_rose_bush",
+    "diversity_of_flowers_neo:purple_periwinkle",
+    "diversity_of_flowers_neo:red_periwinkle",
+    "diversity_of_flowers_neo:blue_periwinkle",
+    "diversity_of_flowers_neo:pink_peony",
+    "diversity_of_flowers_neo:pink_rose_bush",
+    "diversity_of_flowers_neo:white_peony",
+    "diversity_of_flowers_neo:white_rose_bush",
+    "diversity_of_flowers_neo:yellow_rose_bush"
+  ],
+  "step": "vegetal_decoration"
+}

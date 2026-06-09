@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:taiga"
+  ],
+  "features": [
+    "diversity_of_flowers_neo:orange_poppy",
+    "diversity_of_flowers_neo:pink_poppy",
+    "diversity_of_flowers_neo:yellow_poppy",
+    "diversity_of_flowers_neo:white_poppy",
+    "diversity_of_flowers_neo:purple_anemone"
+  ],
+  "step": "vegetal_decoration"
+}

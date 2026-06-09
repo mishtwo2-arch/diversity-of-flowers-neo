@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "jungle"
+  ],
+  "features": [
+    "diversity_of_flowers_neo:pink_orchid",
+    "diversity_of_flowers_neo:purple_orchid",
+    "diversity_of_flowers_neo:white_orchid",
+    "diversity_of_flowers_neo:yellow_orchid",
+    "diversity_of_flowers_neo:pink_anemone"
+  ],
+  "step": "vegetal_decoration"
+}

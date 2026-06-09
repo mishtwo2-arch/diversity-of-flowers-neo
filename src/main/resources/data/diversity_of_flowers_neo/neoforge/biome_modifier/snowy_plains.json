@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:snowy_plains"
+  ],
+  "features": [
+    "diversity_of_flowers_neo:ashen_sage",
+    "diversity_of_flowers_neo:snow_dandelion"
+  ],
+  "step": "vegetal_decoration"
+}
