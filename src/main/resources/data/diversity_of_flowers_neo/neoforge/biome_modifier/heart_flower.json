@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:dark_forest"
+  ],
+  "features": [
+    "diversity_of_flowers_neo:heart_flower"
+  ],
+  "step": "vegetal_decoration"
+}

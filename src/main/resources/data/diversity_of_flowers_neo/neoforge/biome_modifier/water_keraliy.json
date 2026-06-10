@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "river",
+  "features": [
+    "diversity_of_flowers_neo:water_keraliy"
+  ],
+  "step": "vegetal_decoration"
+}

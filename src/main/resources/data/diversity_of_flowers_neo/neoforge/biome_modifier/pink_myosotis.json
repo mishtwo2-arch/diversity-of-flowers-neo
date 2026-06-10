@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:meadow"
+  ],
+  "features": [
+    "diversity_of_flowers_neo:pink_myosotis"
+  ],
+  "step": "vegetal_decoration"
+}

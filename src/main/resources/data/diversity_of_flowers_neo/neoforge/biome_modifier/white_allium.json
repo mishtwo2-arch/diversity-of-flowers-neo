@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:flower_forest",
+    "minecraft:meadow"
+  ],
+  "features": [
+    "diversity_of_flowers_neo:white_allium"
+  ],
+  "step": "vegetal_decoration"
+}

@@ -7,7 +7,7 @@
     "diversity_of_flowers_neo:magenta_rose_bush",
     "diversity_of_flowers_neo:heart_flower",
     "diversity_of_flowers_neo:purple_rose_bush",
-    "diversity_of_flowers_neo:gloriosa_daisy",
+    //"diversity_of_flowers_neo:gloriosa_daisy",
     "diversity_of_flowers_neo:red_peony"
   ],
   "step": "vegetal_decoration"
