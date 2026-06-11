@@ -1,7 +1,15 @@
 # *Diversity of Flower*
 
 
-[EN] This mod adds 50 new plants to vanilla Minecraft, bringing fresh
+[EN]
+# Update! Changes:
+- ### Fixed a critical error when generating with other mods.
+
+- ### New vegetation in the End!
+
+# Description:
+
+This mod adds 50 new plants to vanilla Minecraft, bringing fresh
 variety to the world.
 It features both reimagined variations of vanilla flowers and completely
 new, unique plants to discover.
@@ -67,7 +75,15 @@ Texture design and testing: Keliandra
 
 
 
-[RU] Этот мод добавляет в наскучивший ванильный майнкрафт 50 новых растений, 
+[RU]
+# Обновление! Изменения: 
+ - ### Исправлена критическая ошибка при генерации вместе с другими модами
+
+ - ### Новая растительность в Энде!
+
+# Описание:
+
+Этот мод добавляет в наскучивший ванильный майнкрафт 50 новых растений, 
 переработаны как вариации ванильных цветов, так и абсолютно 
 новые и уникальные растения.
 

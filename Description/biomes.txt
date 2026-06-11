@@ -152,3 +152,16 @@
                                          "minecraft:forest"
 
 50. Yellow Tulip (Жёлтый тюльпан) - "minecraft:plains"
+
+
+51. Abyss (Эбис) - "minecraft:end_midlands",
+                   "minecraft:end_barrens",
+                   "minecraft:small_end_islands",
+                   "minecraft:the_end",
+                   "minecraft:end_highlands"
+
+
+52. Abyss's sprout (Росток эбиса) - "minecraft:end_highlands"
+
+
+53. Eclipse - (Эклипс) - "minecraft:end_highlands"
