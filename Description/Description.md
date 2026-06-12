@@ -7,7 +7,7 @@
 
 - ### New vegetation in the End!
 
-- ### Flowers in the End glow.
+- ### Flowers in the End glow
 
 # Description:
 
