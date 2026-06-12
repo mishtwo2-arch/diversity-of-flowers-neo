@@ -2,10 +2,12 @@
 
 
 [EN]
-# Update 1.2.1! Changes:
+# Update 1.2.2! Changes:
 - ### Fixed a critical error when generating with other mods.
 
 - ### New vegetation in the End!
+
+- ### Flowers in the End glow.
 
 # Description:
 
@@ -76,10 +78,12 @@ Texture design and testing: Keliandra
 
 
 [RU]
-# Обновление! 1.2.1 Изменения: 
+# Обновление! 1.2.2 Изменения: 
  - ### Исправлена критическая ошибка при генерации вместе с другими модами
 
  - ### Новая растительность в Энде!
+
+- ### Цветы в энде светятся
 
 # Описание:
 
