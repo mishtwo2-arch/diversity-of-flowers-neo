@@ -2,7 +2,7 @@
 
 
 [EN]
-# Update! Changes:
+# Update 1.2.1! Changes:
 - ### Fixed a critical error when generating with other mods.
 
 - ### New vegetation in the End!
@@ -76,7 +76,7 @@ Texture design and testing: Keliandra
 
 
 [RU]
-# Обновление! Изменения: 
+# Обновление! 1.2.1 Изменения: 
  - ### Исправлена критическая ошибка при генерации вместе с другими модами
 
  - ### Новая растительность в Энде!
@@ -147,6 +147,5 @@ Texture design and testing: Keliandra
 Проектировка текстур и тестирование: Keliandra
 
 
-вввdddd
 
 

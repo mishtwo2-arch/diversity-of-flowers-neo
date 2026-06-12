@@ -41,7 +41,7 @@ public class ModBlocks {
                         .instabreak()
                         .sound(SoundType.GRASS)
                         .offsetType(BlockBehaviour.OffsetType.XZ)
-                        .lightLevel(state -> 10)
+                        .lightLevel(state -> 15)
 
 
         );
