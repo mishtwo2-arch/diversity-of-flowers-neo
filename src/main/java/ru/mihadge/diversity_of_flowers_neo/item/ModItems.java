@@ -272,6 +272,11 @@ public class ModItems {
             ITEMS.register( "eclipse",
                     () -> new BlockItem(ModBlocks.ECLIPSE .get(), new Item.Properties()));
 
+    public static final DeferredItem<Item> SCARLET_ROSE_ITEM =
+            ITEMS.register( "scarlet_rose",
+                    () -> new BlockItem(ModBlocks.SCARLET_ROSE .get(), new Item.Properties()));
+
+
 
     public static final DeferredItem<Item> TEST_ITEM =
             ITEMS.register("test",

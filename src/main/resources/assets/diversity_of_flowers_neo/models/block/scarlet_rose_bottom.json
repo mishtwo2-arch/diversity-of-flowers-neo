@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "diversity_of_flowers_neo:block/scarlet_rose_bottom"
+  },
+  "render_type": "cutout"
+}
