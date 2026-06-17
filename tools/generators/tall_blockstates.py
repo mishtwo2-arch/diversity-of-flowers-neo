@@ -2,13 +2,16 @@ import json
 from pathlib import Path
 
 
-def generate_blockstates(name, modid):
+def generate_tall_blockstates(name, modid):
     file_path = Path(f"../src/main/resources/assets/{modid}/blockstates/{name}.json")
 
     data = {
         "variants": {
-            "": {
-                "model": f"{modid}:{name}"
+            "half=lower": {
+                "model": f"{modid}:{name}_bottom"
+            },
+            "half=upper": {
+                "model": f"{modid}:{name}_top"
             }
         }
     }

@@ -2,14 +2,12 @@ import json
 from pathlib import Path
 
 
-def generate_blockstates(name, modid):
-    file_path = Path(f"../src/main/resources/assets/{modid}/blockstates/{name}.json")
+def generate_potted_blockstates(name, modid):
+    file_path = Path(f"../src/main/resources/assets/{modid}/blockstates/potted_{name}.json")
 
     data = {
         "variants": {
-            "": {
-                "model": f"{modid}:{name}"
-            }
+            "": { "model": f"{modid}:block/{name}" }
         }
     }
 
