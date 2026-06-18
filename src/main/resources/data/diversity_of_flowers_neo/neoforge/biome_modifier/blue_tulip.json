@@ -1,7 +1,8 @@
 {
   "type": "neoforge:add_features",
-  "biomes":
-  "minecraft:plains",
+  "biomes":[
+  "minecraft:plains"
+    ],
   "features": [
     "diversity_of_flowers_neo:blue_tulip"
   ],

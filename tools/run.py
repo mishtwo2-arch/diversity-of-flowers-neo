@@ -10,6 +10,10 @@ from generators.tall_block_model_bottom import generate_tall_block_model_bottom
 from generators.tall_item_model import generate_tall_item_model
 from generators.loot_table import generate_loot_table
 from generators.tall_loot_table import generate_tall_loot_table
+from generators.biome_modifier import generate_biome_modifier
+from generators.configured_feature import generate_configured_feature
+from generators.placed_feature import generate_placed_feature
+
 
 MODID = "diversity_of_flowers_neo"
 
@@ -31,6 +35,11 @@ DO_TALL_BLOCKSTATES = False
 
 DO_LOOT_TABLE = True
 DO_TALL_LOOT_TABLE = False
+
+DO_BIOME_MODIFIER = False
+DO_CONFIGURED_FEATURE = False
+DO_PLACED_FEATURE = True
+
 
 
 
@@ -72,5 +81,14 @@ for flower in flowers:
 
     if DO_TALL_BLOCKSTATES:
         generate_tall_blockstates(flower, MODID)
+
+    if DO_BIOME_MODIFIER:
+            generate_biome_modifier(flower, MODID)
+
+    if DO_CONFIGURED_FEATURE:
+        generate_configured_feature(flower, MODID)
+
+    if DO_PLACED_FEATURE:
+        generate_placed_feature(flower, MODID)
 
 print("DONE")
