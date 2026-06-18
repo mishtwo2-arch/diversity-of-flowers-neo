@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "diversity_of_flowers_neo:block/ttt"
+      "model": "diversity_of_flowers_neo:ttt"
     }
   }
 }
