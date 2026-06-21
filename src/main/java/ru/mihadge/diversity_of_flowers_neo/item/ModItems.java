@@ -317,6 +317,26 @@ public class ModItems {
             ITEMS.register( "blue_kiz",
                     () -> new BlockItem(ModBlocks.BLUE_KIZ .get(), new Item.Properties()));
 
+    public static final DeferredItem<Item> DAURIN_ITEM =
+            ITEMS.register( "daurin",
+                    () -> new BlockItem(ModBlocks.DAURIN .get(), new Item.Properties()));
+
+
+    public static final DeferredItem<Item> CHRISTALIT_ITEM =
+            ITEMS.register( "christalit",
+                    () -> new BlockItem(ModBlocks.CHRISTALIT .get(), new Item.Properties()));
+
+
+    public static final DeferredItem<Item> FROIDEUR_ITEM =
+            ITEMS.register( "froideur",
+                    () -> new BlockItem(ModBlocks.FROIDEUR .get(), new Item.Properties()));
+
+
+    public static final DeferredItem<Item> MOUNTAIN_CORNFLOWER_ITEM =
+            ITEMS.register( "mountain_cornflower",
+                    () -> new BlockItem(ModBlocks.MOUNTAIN_CORNFLOWER .get(), new Item.Properties()));
+
+
 
 
     public static final DeferredItem<BlockItem> TEST_ITEM =

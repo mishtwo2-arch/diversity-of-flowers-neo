@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:plains"
+  ],
+  "features": [
+    "diversity_of_flowers_neo:christalit"
+  ],
+  "step": "vegetal_decoration"
+}
