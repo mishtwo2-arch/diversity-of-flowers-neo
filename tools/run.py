@@ -18,7 +18,7 @@ from generators.placed_feature import generate_placed_feature
 MODID = "diversity_of_flowers_neo"
 
 flowers = [
-    "ttt"
+    "blue_kiz"
 ]
 
 DO_ITEM_MODEL = True
@@ -38,7 +38,7 @@ DO_TALL_LOOT_TABLE = False
 
 DO_BIOME_MODIFIER = False
 DO_CONFIGURED_FEATURE = False
-DO_PLACED_FEATURE = True
+DO_PLACED_FEATURE = False
 
 
 

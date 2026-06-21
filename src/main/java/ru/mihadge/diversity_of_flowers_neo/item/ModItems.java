@@ -313,6 +313,10 @@ public class ModItems {
             ITEMS.register( "scarlet_rose",
                     () -> new BlockItem(ModBlocks.SCARLET_ROSE .get(), new Item.Properties()));
 
+    public static final DeferredItem<Item> BLUE_KIZ_ITEM =
+            ITEMS.register( "blue_kiz",
+                    () -> new BlockItem(ModBlocks.BLUE_KIZ .get(), new Item.Properties()));
+
 
 
     public static final DeferredItem<BlockItem> TEST_ITEM =

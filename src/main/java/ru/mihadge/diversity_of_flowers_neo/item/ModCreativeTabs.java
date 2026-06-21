@@ -54,6 +54,7 @@ public class ModCreativeTabs {
                         output.accept(ModItems.BLUE_FAGUSA_ITEM);
                         output.accept(ModItems.GREEN_FAGUSA_ITEM);
                         output.accept(ModItems.WATER_KERALIY_ITEM);
+                        output.accept(ModItems.BLUE_KIZ_ITEM);
 
                         output.accept(ModItems.TEST_ITEM);
 

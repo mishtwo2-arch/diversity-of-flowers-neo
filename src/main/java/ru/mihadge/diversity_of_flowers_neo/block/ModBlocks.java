@@ -293,6 +293,12 @@ public class ModBlocks {
     public static final DeferredBlock<Block> POTTED_BLACK_TULIP =
             BLOCKS.registerBlock("potted_black_tulip", properties -> createPotted(BLACK_TULIP, properties));
 
+    public static final DeferredBlock<Block> BLUE_KIZ =
+            BLOCKS.register("blue_kiz",ModBlocks::createFlower);
+
+    public static final DeferredBlock<Block> POTTED_BLUE_KIZ =
+            BLOCKS.register("potted_blue_kiz", () -> createPotted(BLUE_KIZ));
+
 
     public static final  DeferredBlock<Block> ABYSS =
             BLOCKS.registerBlock("abyss",ModBlocks::createEndFlower);
@@ -441,6 +447,7 @@ public static final DeferredBlock<Block> ABYSS_S_SPROUT =
                 pot.addPlant(GREEN_FAGUSA.getId(), POTTED_GREEN_FAGUSA);
                 pot.addPlant(WATER_KERALIY.getId(), POTTED_WATER_KERALIY);
                 pot.addPlant(ABYSS.getId(), POTTED_ABYSS);
+                pot.addPlant(BLUE_KIZ.getId(), POTTED_BLUE_KIZ);
 
             });
         });
