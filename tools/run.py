@@ -18,7 +18,9 @@ from generators.placed_feature import generate_placed_feature
 MODID = "diversity_of_flowers_neo"
 
 flowers = [
-    "blue_kiz"
+    "daurin",
+    "christalit",
+    "mountain_cornflower"
 ]
 
 DO_ITEM_MODEL = True
