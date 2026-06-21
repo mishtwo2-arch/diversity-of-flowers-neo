@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "jungle",
+    "sparse_jungle"
+  ],
+  "features": [
+    "diversity_of_flowers_neo:daurin"
+  ],
+  "step": "vegetal_decoration"
+}

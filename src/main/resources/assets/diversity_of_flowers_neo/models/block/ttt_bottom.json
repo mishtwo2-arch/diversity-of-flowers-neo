@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "diversity_of_flowers_neo:block/ttt"
-  },
-  "render_type": "cutout"
-}

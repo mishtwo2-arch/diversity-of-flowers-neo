@@ -296,6 +296,37 @@ public class ModBlocks {
     public static final DeferredBlock<Block> POTTED_BLACK_TULIP =
             BLOCKS.register("potted_black_tulip", () -> createPotted(BLACK_TULIP));
 
+    public static final DeferredBlock<Block> BLUE_KIZ =
+            BLOCKS.register("blue_kiz",ModBlocks::createFlower);
+
+    public static final DeferredBlock<Block> POTTED_BLUE_KIZ =
+            BLOCKS.register("potted_blue_kiz", () -> createPotted(BLUE_KIZ));
+
+    public static final DeferredBlock<Block> DAURIN =
+            BLOCKS.register("daurin",ModBlocks::createFlower);
+
+    public static final DeferredBlock<Block> POTTED_DAURIN =
+            BLOCKS.register("potted_daurin", () -> createPotted(DAURIN));
+
+    public static final DeferredBlock<Block> CHRISTALIT =
+            BLOCKS.register("christalit",ModBlocks::createFlower);
+
+    public static final DeferredBlock<Block> POTTED_CHRISTALIT =
+            BLOCKS.register("potted_christalit", () -> createPotted(BLUE_KIZ));
+
+    public static final DeferredBlock<Block> FROIDEUR =
+            BLOCKS.register("froideur",ModBlocks::createFlower);
+
+    public static final DeferredBlock<Block> POTTED_FROIDEUR =
+            BLOCKS.register("potted_froideur", () -> createPotted(BLUE_KIZ));
+
+    public static final DeferredBlock<Block> MOUNTAIN_CORNFLOWER =
+            BLOCKS.register("mountain_cornflower",ModBlocks::createFlower);
+
+    public static final DeferredBlock<Block> POTTED_MOUNTAIN_CORNFLOWER =
+            BLOCKS.register("potted_mountain_cornflower", () -> createPotted(MOUNTAIN_CORNFLOWER));
+
+
 
     public static final  DeferredBlock<Block> ABYSS =
             BLOCKS.register("abyss",ModBlocks::createEndFlower);
@@ -444,6 +475,11 @@ public static final DeferredBlock<Block> ABYSS_S_SPROUT =
                 pot.addPlant(GREEN_FAGUSA.getId(), POTTED_GREEN_FAGUSA);
                 pot.addPlant(WATER_KERALIY.getId(), POTTED_WATER_KERALIY);
                 pot.addPlant(ABYSS.getId(), POTTED_ABYSS);
+                pot.addPlant(BLUE_KIZ.getId(), POTTED_BLUE_KIZ);
+                pot.addPlant(DAURIN.getId(), POTTED_DAURIN);
+                pot.addPlant(CHRISTALIT.getId(), POTTED_CHRISTALIT);
+                pot.addPlant(FROIDEUR.getId(), POTTED_FROIDEUR);
+                pot.addPlant(MOUNTAIN_CORNFLOWER.getId(), POTTED_MOUNTAIN_CORNFLOWER);
 
             });
         });
