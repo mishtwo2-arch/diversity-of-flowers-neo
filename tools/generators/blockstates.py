@@ -8,7 +8,7 @@ def generate_blockstates(name, modid):
     data = {
         "variants": {
             "": {
-                "model": f"{modid}:{name}"
+                "model": f"{modid}:block/{name}"
             }
         }
     }

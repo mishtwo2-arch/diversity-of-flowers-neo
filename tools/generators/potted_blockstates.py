@@ -7,7 +7,7 @@ def generate_potted_blockstates(name, modid):
 
     data = {
         "variants": {
-            "": { "model": f"{modid}:block/{name}" }
+            "": { "model": f"{modid}:block/potted_{name}" }
         }
     }
 

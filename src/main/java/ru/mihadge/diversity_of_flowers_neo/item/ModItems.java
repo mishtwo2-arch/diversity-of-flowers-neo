@@ -272,6 +272,10 @@ public class ModItems {
             ITEMS.register( "eclipse",
                     () -> new BlockItem(ModBlocks.ECLIPSE .get(), new Item.Properties()));
 
+    public static final DeferredItem<Item> BLUE_KIZ_ITEM =
+            ITEMS.register( "blue_kiz",
+                    () -> new BlockItem(ModBlocks.BLUE_KIZ .get(), new Item.Properties()));
+
 
     public static final DeferredItem<Item> TEST_ITEM =
             ITEMS.register("test",
