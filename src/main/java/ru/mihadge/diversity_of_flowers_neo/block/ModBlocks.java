@@ -315,7 +315,17 @@ public class ModBlocks {
             BLOCKS.register("potted_christalit", () -> createPotted(BLUE_KIZ));
 
     public static final DeferredBlock<Block> FROIDEUR =
-            BLOCKS.register("froideur",ModBlocks::createFlower);
+            BLOCKS.register("froideur",
+                    () -> new ModSnowFlower(
+                            MobEffects.LUCK,
+                            0.0F,
+                            BlockBehaviour.Properties.of()
+                                    .mapColor(MapColor.PLANT)
+                                    .noCollission()
+                                    .instabreak()
+                                    .sound(SoundType.GRASS)
+                                    .offsetType(BlockBehaviour.OffsetType.XZ)
+                    ));
 
     public static final DeferredBlock<Block> POTTED_FROIDEUR =
             BLOCKS.register("potted_froideur", () -> createPotted(BLUE_KIZ));
@@ -477,6 +487,7 @@ public static final DeferredBlock<Block> ABYSS_S_SPROUT =
                 pot.addPlant(CHRISTALIT.getId(), POTTED_CHRISTALIT);
                 pot.addPlant(FROIDEUR.getId(), POTTED_FROIDEUR);
                 pot.addPlant(MOUNTAIN_CORNFLOWER.getId(), POTTED_MOUNTAIN_CORNFLOWER);
+                pot.addPlant(ECLIPSE.getId(), POTTED_ECLIPSE);
 
             });
         });

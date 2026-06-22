@@ -18,24 +18,22 @@ from generators.placed_feature import generate_placed_feature
 MODID = "diversity_of_flowers_neo"
 
 flowers = [
-    "daurin",
-    "christalit",
-    "mountain_cornflower"
+    "ttt"
 ]
 
-DO_ITEM_MODEL = True
-DO_POTTED_ITEM_MODEL = True
-DO_BLOCK_MODEL = True
-DO_POTTED_BLOCK_MODEL = True
-DO_BLOCKSTATES = True
-DO_POTTED_BLOCKSTATES = True
+DO_ITEM_MODEL = False
+DO_POTTED_ITEM_MODEL = False
+DO_BLOCK_MODEL = False
+DO_POTTED_BLOCK_MODEL = False
+DO_BLOCKSTATES = False
+DO_POTTED_BLOCKSTATES = False
 
 DO_TALL_BLOCK_MODEL_TOP = False
 DO_TALL_BLOCK_MODEL_BOTTOM = False
 DO_TALL_ITEM_MODEL = False
 DO_TALL_BLOCKSTATES = False
 
-DO_LOOT_TABLE = True
+DO_LOOT_TABLE = False
 DO_TALL_LOOT_TABLE = False
 
 DO_BIOME_MODIFIER = True
