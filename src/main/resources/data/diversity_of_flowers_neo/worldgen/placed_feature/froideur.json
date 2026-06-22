@@ -1,9 +1,9 @@
 {
-  "feature": "diversity_of_flowers_neo:almius",
+  "feature": "diversity_of_flowers_neo:froideur",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 6
+      "chance": 16
     },
     {
       "type": "minecraft:in_square"
