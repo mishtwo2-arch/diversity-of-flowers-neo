@@ -295,6 +295,10 @@ public class ModItems {
             ITEMS.register( "mountain_cornflower",
                     () -> new BlockItem(ModBlocks.MOUNTAIN_CORNFLOWER .get(), new Item.Properties()));
 
+    public static final DeferredItem<Item> SCARLET_ROSE_ITEM =
+            ITEMS.register( "scarlet_rose",
+                    () -> new BlockItem(ModBlocks.SCARLET_ROSE .get(), new Item.Properties()));
+
 
 
     public static final DeferredItem<Item> TEST_ITEM =
