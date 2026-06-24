@@ -1,4 +1,6 @@
 {
-  "parent": "diversity_of_flowers_neo:block/scarlet_rose_bottom",
-  "gui_light": "front"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "diversity_of_flowers_neo:block/scarlet_rose_item"
+  }
 }
