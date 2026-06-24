@@ -340,6 +340,10 @@ public class ModItems {
             ITEMS.register( "scarlet_rose",
                     () -> new BlockItem(ModBlocks.SCARLET_ROSE .get(), new Item.Properties()));
 
+    public static final DeferredItem<Item> VEGNET_ITEM =
+            ITEMS.register( "vegnet",
+                    () -> new BlockItem(ModBlocks.VEGNET .get(), new Item.Properties()));
+
 
 
 

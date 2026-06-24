@@ -423,6 +423,9 @@ public static final DeferredBlock<Block> ABYSS_S_SPROUT =
     public static final DeferredBlock<Block> ORANGE_ROSE_BUSH =
             BLOCKS.registerBlock("orange_rose_bush", ModBlocks::createTallFlower);
 
+    public static final DeferredBlock<Block> VEGNET =
+            BLOCKS.register("vegnet", ModBlocks::createTallFlower);
+
     public static final DeferredBlock<Block> MOONFLOWER =
             BLOCKS.registerBlock("moonflower",
                     properties -> new MoonFlowerBlock(

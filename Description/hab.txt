@@ -1,7 +1,7 @@
-vegnet
+vegnet1
 daurin 1
-kiz 11
+kiz 1
 christalit 1
 froideur 1
 mountain_cornflower 1
-scarlet rose
+scarlet rose1

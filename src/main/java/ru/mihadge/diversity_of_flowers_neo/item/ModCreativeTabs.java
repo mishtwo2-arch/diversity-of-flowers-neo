@@ -78,6 +78,7 @@ public class ModCreativeTabs {
                         output.accept(ModItems.ORANGE_ROSE_BUSH_ITEM);
                         output.accept(ModItems.MOONFLOWER_ITEM);
                         output.accept(ModItems.SCARLET_ROSE_ITEM);
+                        output.accept(ModItems.VEGNET_ITEM);
 
                         //output.accept(ModItems.ABYSS_ITEM);
                         //output.accept(ModItems.ABYSS_S_SPROUT_ITEM);
