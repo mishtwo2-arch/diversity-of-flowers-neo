@@ -383,8 +383,8 @@ public static final DeferredBlock<Block> ABYSS_S_SPROUT =
     public static final DeferredBlock<Block> YELLOW_ROSE_BUSH =
             BLOCKS.registerBlock("yellow_rose_bush", ModBlocks::createTallFlower);
 
-    //public static final DeferredBlock<Block> SCARLET_ROSE =
-     //       BLOCKS.register("scarlet_rose", ModBlocks::createTallFlower);
+    public static final DeferredBlock<Block> SCARLET_ROSE =
+            BLOCKS.register("scarlet_rose", ModBlocks::createTallFlower);
 
 
     public static final DeferredBlock<Block> WHITE_PEONY =
