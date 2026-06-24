@@ -1,7 +1,6 @@
 package ru.mihadge.diversity_of_flowers_neo.worldgen;
 
 import ru.mihadge.diversity_of_flowers_neo.DiversityOfFlowersNeo;
-import ru.mihadge.diversity_of_flowers_neo.worldgen.AbyssFeature;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration;
@@ -18,6 +17,12 @@ public class ModFeatures {
             FEATURES.register(
                     "abyss_feature",
                     () -> new AbyssFeature(NoneFeatureConfiguration.CODEC)
+            );
+
+    public static final DeferredHolder<Feature<?>, Feature<?>> AMETHYST_FLOWER_FEATURE =
+            FEATURES.register(
+                    "amethyst_flower_feature",
+                    () -> new AmethystFlowerFeature(NoneFeatureConfiguration.CODEC)
             );
 
     public static void register(IEventBus eventBus) {
