@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:ice_spikes",
+    "minecraft:snowy_plains",
+    "minecraft:snowy_taiga"
+  ],
+  "features": [
+    "diversity_of_flowers_neo:froideur"
+  ],
+  "step": "vegetal_decoration"
+}
