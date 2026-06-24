@@ -8,7 +8,7 @@ def generate_tall_block_model_top(name, modid):
     data =  {
         "parent": "minecraft:block/cross",
         "textures": {
-            "cross": f"{modid}:block/{name}"
+            "cross": f"{modid}:block/{name}_top"
         },
         "render_type": "cutout"
     }

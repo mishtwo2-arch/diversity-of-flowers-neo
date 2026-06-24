@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "diversity_of_flowers_neo:block/vegnet_top"
+  },
+  "render_type": "cutout"
+}

@@ -8,10 +8,10 @@ def generate_tall_blockstates(name, modid):
     data = {
         "variants": {
             "half=lower": {
-                "model": f"{modid}:{name}_bottom"
+                "model": f"{modid}:block/{name}_bottom"
             },
             "half=upper": {
-                "model": f"{modid}:{name}_top"
+                "model": f"{modid}:block/{name}_top"
             }
         }
     }
