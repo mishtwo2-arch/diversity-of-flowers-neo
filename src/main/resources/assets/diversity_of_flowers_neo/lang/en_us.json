@@ -159,6 +159,27 @@
 
   "block.diversity_of_flowers_neo.eclipse": "Eclipse",
   "item.diversity_of_flowers_neo.eclipse": "Eclipse",
+
+  "block.diversity_of_flowers_neo.vegnet": "Vegnet",
+  "item.diversity_of_flowers_neo.vegnet": "Vegnet",
+
+  "block.diversity_of_flowers_neo.daurin": "Daurin",
+  "item.diversity_of_flowers_neo.daurin": "Daurin",
+
+  "block.diversity_of_flowers_neo.blue_kiz": "Blue kiz",
+  "item.diversity_of_flowers_neo.blue_kiz": "Blue kiz",
+
+  "block.diversity_of_flowers_neo.christalit": "Christalit",
+  "item.diversity_of_flowers_neo.christalit": "Christalit",
+
+  "block.diversity_of_flowers_neo.froideur": "Froideur",
+  "item.diversity_of_flowers_neo.froideur": "Froideur",
+
+  "block.diversity_of_flowers_neo.mountain_cornflower": "Mountain cornflower",
+  "item.diversity_of_flowers_neo.mountain_cornflower": "Mountain cornflower",
+
+  "block.diversity_of_flowers_neo.scarlet_rose": "Scarlet rose",
+  "item.diversity_of_flowers_neo.scarlet_rose": "Scarlet rose",
   
   "itemGroup.diversity_of_flowers_neo": "Diversity Of Flowers Neo",
 
