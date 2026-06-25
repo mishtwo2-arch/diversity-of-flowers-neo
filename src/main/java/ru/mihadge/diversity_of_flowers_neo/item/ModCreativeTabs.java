@@ -60,7 +60,7 @@ public class ModCreativeTabs {
                         output.accept(ModItems.FROIDEUR_ITEM);
                         output.accept(ModItems.MOUNTAIN_CORNFLOWER_ITEM);
 
-                        output.accept(ModItems.TEST_ITEM);
+                        //output.accept(ModItems.TEST_ITEM);
 
                         output.accept(ModItems.YELLOW_ROSE_BUSH_ITEM);
                         output.accept(ModItems.ASHEN_SAGE_ITEM);

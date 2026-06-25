@@ -75,6 +75,14 @@
     "red_periwinkle": { "trigger": "minecraft:impossible" },
     "blue_periwinkle": { "trigger": "minecraft:impossible" },
     "almius": { "trigger": "minecraft:impossible" },
-    "water_keraliy": { "trigger": "minecraft:impossible" }
+    "water_keraliy": { "trigger": "minecraft:impossible" },
+
+    "vegnet": { "trigger": "minecraft:impossible" },
+    "daurin": { "trigger": "minecraft:impossible" },
+    "blue_kiz": { "trigger": "minecraft:impossible" },
+    "christalit": { "trigger": "minecraft:impossible" },
+    "froideur": { "trigger": "minecraft:impossible" },
+    "mountain_cornflower": { "trigger": "minecraft:impossible" },
+    "scarlet_rose": { "trigger": "minecraft:impossible" }
   }
 }

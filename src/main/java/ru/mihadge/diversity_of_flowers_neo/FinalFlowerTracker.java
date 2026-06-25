@@ -65,7 +65,15 @@ public class FinalFlowerTracker {
             "diversity_of_flowers_neo:red_periwinkle",
             "diversity_of_flowers_neo:blue_periwinkle",
             "diversity_of_flowers_neo:almius",
-            "diversity_of_flowers_neo:water_keraliy"
+            "diversity_of_flowers_neo:water_keraliy",
+
+            "diversity_of_flowers_neo:vegnet",
+            "diversity_of_flowers_neo:daurin",
+            "diversity_of_flowers_neo:blue_kiz",
+            "diversity_of_flowers_neo:christalit",
+            "diversity_of_flowers_neo:froideur",
+            "diversity_of_flowers_neo:mountain_cornflower",
+            "diversity_of_flowers_neo:scarlet_rose"
     );
 
     private static final ResourceLocation ADV_ID =
