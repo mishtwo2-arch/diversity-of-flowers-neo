@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "diversity_of_flowers_neo:ttt"
+    }
+  ],
+  "result": {
+    "id": "minecraft:ttt",
+    "count": 1
+  }
+}
