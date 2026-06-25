@@ -8,7 +8,7 @@ scarlet_rose 1
 
  "vegnet",
  "daurin",
- "kiz",
+ "blue_kiz",
  "christalit",
  "froideur",
  "mountain_cornflower",

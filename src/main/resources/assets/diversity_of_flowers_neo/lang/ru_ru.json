@@ -158,6 +158,27 @@
   "block.diversity_of_flowers_neo.eclipse": "Эклипс",
   "item.diversity_of_flowers_neo.eclipse": "Эклипс",
 
+  "block.diversity_of_flowers_neo.vegnet": "Вегнет",
+  "item.diversity_of_flowers_neo.vegnet": "Вегнет",
+
+  "block.diversity_of_flowers_neo.daurin": "Даурин",
+  "item.diversity_of_flowers_neo.daurin": "Даурин",
+
+  "block.diversity_of_flowers_neo.blue_kiz": "Киз синий",
+  "item.diversity_of_flowers_neo.blue_kiz": "Киз синий",
+
+  "block.diversity_of_flowers_neo.christalit": "Кристаллит",
+  "item.diversity_of_flowers_neo.christalit": "Кристаллит",
+
+  "block.diversity_of_flowers_neo.froideur": "Фроидеур",
+  "item.diversity_of_flowers_neo.froideur": "Фроидеур",
+
+  "block.diversity_of_flowers_neo.mountain_cornflower": "Горный василёк",
+  "item.diversity_of_flowers_neo.mountain_cornflower": "Горный василёк",
+
+  "block.diversity_of_flowers_neo.scarlet_rose": "Алая роза",
+  "item.diversity_of_flowers_neo.scarlet_rose": "Алая роза",
+
   "itemGroup.diversity_of_flowers_neo": "Diversity Of Flowers Neo",
 
   "itemGroup.diversity_of_flowers_neo_items": "Diversity Of Flowers Neo предметы",
