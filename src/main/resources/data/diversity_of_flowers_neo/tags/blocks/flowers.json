@@ -42,15 +42,6 @@
     "diversity_of_flowers_neo:pink_anemone",
     "diversity_of_flowers_neo:turquoise_anemone",
     "diversity_of_flowers_neo:yellow_anemone",
-    "diversity_of_flowers_neo:red_fagusa",
-    "diversity_of_flowers_neo:blue_fagusa",
-    "diversity_of_flowers_neo:green_fagusa",
-    "diversity_of_flowers_neo:heart_flower",
-    "diversity_of_flowers_neo:purple_periwinkle",
-    "diversity_of_flowers_neo:red_periwinkle",
-    "diversity_of_flowers_neo:blue_periwinkle",
-    "diversity_of_flowers_neo:almius",
-    "diversity_of_flowers_neo:water_keraliy",
     "diversity_of_flowers_neo:abyss",
     "diversity_of_flowers_neo:abyss_s_sprout",
     "diversity_of_flowers_neo:eclipse",
@@ -62,5 +53,4 @@
     "diversity_of_flowers_neo:mountain_cornflower",
     "diversity_of_flowers_neo:scarlet_rose"
   ]
-
 }
