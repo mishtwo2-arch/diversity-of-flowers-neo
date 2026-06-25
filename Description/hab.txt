@@ -5,3 +5,19 @@ christalit 1
 froideur 1
 mountain_cornflower 1
 scarlet_rose 1
+
+ "vegnet",
+ "daurin",
+ "kiz",
+ "christalit",
+ "froideur",
+ "mountain_cornflower",
+ "scarlet_rose"
+
+ "diversity_of_flowers_neo:vegnet",
+     "diversity_of_flowers_neo:daurin",
+     "diversity_of_flowers_neo:kiz",
+     "diversity_of_flowers_neo:christalit",
+     "diversity_of_flowers_neo:froideur",
+     "diversity_of_flowers_neo:mountain_cornflower",
+     "diversity_of_flowers_neo:scarlet_rose"
