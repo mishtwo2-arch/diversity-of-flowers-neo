@@ -195,7 +195,7 @@
   "advancements.diversity_of_flowers_neo.snowbound_dandelion.description": "Найдите снежный одуванчик в снежных равнинах, снежной тайге или ледяных пиках",
 
   "advancements.diversity_of_flowers_neo.almost_there.title": "Ещё чуть чуть..",
-  "advancements.diversity_of_flowers_neo.almost_there.description": "Соберите 50 из 57 цветов обычного мира",
+  "advancements.diversity_of_flowers_neo.almost_there.description": "Соберите 49 из 57 цветов обычного мира",
 
   "advancements.diversity_of_flowers_neo.great_rarity.title": "Огромная редкость",
   "advancements.diversity_of_flowers_neo.great_rarity.description": "Найдите редчайший лунный цветок в подсолнечных полях",
@@ -224,6 +224,9 @@
   "advancements.diversity_of_flowers_neo.new_flora.description": "Соберите пару частых цветов нового мира",
 
   "advancements.diversity_of_flowers_neo.end_curiosity.title": "Диковинка энда",
-  "advancements.diversity_of_flowers_neo.end_curiosity.description": "Найдите редкие цветы на наиболее плодородных частях энда — хорусовых полях"
+  "advancements.diversity_of_flowers_neo.end_curiosity.description": "Найдите редкие цветы на наиболее плодородных частях энда — хорусовых полях",
+
+  "advancements.diversity_of_flowers_neo.blooming_gemstone.title": "Цветущий самоцвет",
+  "advancements.diversity_of_flowers_neo.blooming_gemstone.description": "Найдите цветок, растущий только над жеодами аметиста"
 
 }

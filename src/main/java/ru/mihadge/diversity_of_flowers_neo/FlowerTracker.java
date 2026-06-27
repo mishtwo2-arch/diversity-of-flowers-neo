@@ -66,7 +66,6 @@ public class FlowerTracker {
             "diversity_of_flowers_neo:vegnet",
             "diversity_of_flowers_neo:daurin",
             "diversity_of_flowers_neo:blue_kiz",
-            "diversity_of_flowers_neo:christalit",
             "diversity_of_flowers_neo:froideur",
             "diversity_of_flowers_neo:mountain_cornflower",
             "diversity_of_flowers_neo:scarlet_rose"
