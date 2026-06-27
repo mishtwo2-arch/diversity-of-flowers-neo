@@ -45,10 +45,7 @@ public class AmethystFlowerFeature extends Feature<NoneFeatureConfiguration> {
 
             var state = level.getBlockState(check);
 
-            if (state.is(Blocks.AMETHYST_BLOCK)
-                    || state.is(Blocks.BUDDING_AMETHYST)
-                    || state.is(Blocks.CALCITE)
-                    || state.is(Blocks.SMOOTH_BASALT)) {
+            if (state.is(Blocks.AMETHYST_BLOCK)) {
 
                 level.setBlock(
                         pos,

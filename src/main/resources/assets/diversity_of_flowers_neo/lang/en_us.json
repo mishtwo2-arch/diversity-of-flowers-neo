@@ -197,7 +197,7 @@
   "advancements.diversity_of_flowers_neo.snowbound_dandelion.description": "Find a snowy dandelion in snowy plains, snowy taiga or ice peaks",
 
   "advancements.diversity_of_flowers_neo.almost_there.title": "Just a Little More..",
-  "advancements.diversity_of_flowers_neo.almost_there.description": "Collect 50 out of 57 flowers from the overworld",
+  "advancements.diversity_of_flowers_neo.almost_there.description": "Collect 49 out of 57 flowers from the overworld",
 
   "advancements.diversity_of_flowers_neo.great_rarity.title": "Great Rarity",
   "advancements.diversity_of_flowers_neo.great_rarity.description": "Find the rarest moon flower in the sunflower plains",
@@ -226,6 +226,9 @@
   "advancements.diversity_of_flowers_neo.new_flora.description": "Collect a couple of common flowers from the new world",
 
   "advancements.diversity_of_flowers_neo.end_curiosity.title": "End curiosity",
-  "advancements.diversity_of_flowers_neo.end_curiosity.description": "Find rare flowers in the most fertile parts of the End — the end highlands"
+  "advancements.diversity_of_flowers_neo.end_curiosity.description": "Find rare flowers in the most fertile parts of the End — the end highlands",
+
+  "advancements.diversity_of_flowers_neo.blooming_gemstone.title": "Blooming gemstone",
+  "advancements.diversity_of_flowers_neo.blooming_gemstone.description": "Find the flower that grows only above amethyst geodes"
 
 }

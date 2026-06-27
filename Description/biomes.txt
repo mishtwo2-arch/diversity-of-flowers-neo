@@ -164,4 +164,25 @@
 52. Abyss's sprout (Росток эбиса) - "minecraft:end_highlands"
 
 
-53. Eclipse - (Эклипс) - "minecraft:end_highlands"
+53. Eclipse (Эклипс) - "minecraft:end_highlands"
+
+New!
+
+54. Daurin (Даурин) - "sparse_jungle",
+                      "jungle"
+
+55. Blue_kiz (Киз синий) - "minecraft:plains"
+
+56. Christalit (Кристаллит) - All!
+
+57. Froideur (Фроидеур) - "minecraft:snowy_plains",
+                          "minecraft:snowy_taiga",
+                          "minecraft:ice_spikes"
+
+58. Mountain_cornflower (Горный василёк) - "minecraft:windswept_hills",
+                                           "minecraft:windswept_gravelly_hills",
+                                           "minecraft:windswept_forest"
+
+59. Scarlet_rose (Алая роза) - "minecraft:plains"
+
+60. Vegnet (Вегнет) - "minecraft:meadow"

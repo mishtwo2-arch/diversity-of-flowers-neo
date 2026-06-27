@@ -2,12 +2,12 @@
 
 
 [EN]
-# Update 1.2.2! Changes:
-- ### Fixed a critical error when generating with other mods.
+# Update! 1.3.1 Changes:
+- ### Seven new flowers.
 
-- ### New vegetation in the End!
+- ### A unique flower that appears only above amethyst geodes!
 
-- ### Flowers in the End glow
+- ### New achievements
 
 # Description:
 
@@ -78,12 +78,12 @@ Texture design and testing: Keliandra
 
 
 [RU]
-# Обновление! 1.2.2 Изменения: 
- - ### Исправлена критическая ошибка при генерации вместе с другими модами
+# Обновление! 1.3.1 Изменения: 
+ - ### Семь новых цветов.
 
- - ### Новая растительность в Энде!
+ - ### Уникальный цветок появляющийся только над жеодами аметиста!
 
-- ### Цветы в энде светятся
+- ### Новые достижения
 
 # Описание:
 
