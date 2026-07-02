@@ -14,12 +14,13 @@ from generators.biome_modifier import generate_biome_modifier
 from generators.configured_feature import generate_configured_feature
 from generators.placed_feature import generate_placed_feature
 from generators.recipe import generate_recipe
+from generators.item_model_1214 import generate_item_model_1214
 
 
 MODID = "diversity_of_flowers_neo"
 
 flowers = [
-    "ttt"
+    "almius"
 ]
 
 DO_ITEM_MODEL = False
@@ -28,6 +29,8 @@ DO_BLOCK_MODEL = False
 DO_POTTED_BLOCK_MODEL = False
 DO_BLOCKSTATES = False
 DO_POTTED_BLOCKSTATES = False
+
+DO_ITEM_MODEL_1214 = True
 
 DO_TALL_BLOCK_MODEL_TOP = False
 DO_TALL_BLOCK_MODEL_BOTTOM = False
@@ -41,7 +44,7 @@ DO_BIOME_MODIFIER = False
 DO_CONFIGURED_FEATURE = False
 DO_PLACED_FEATURE = False
 
-DO_RECIPE = True
+DO_RECIPE = False
 
 
 
@@ -96,5 +99,8 @@ for flower in flowers:
 
     if DO_RECIPE:
         generate_recipe(flower, MODID)
+
+    if DO_ITEM_MODEL_1214:
+            generate_item_model_1214(flower, MODID)
 
 print("DONE")
