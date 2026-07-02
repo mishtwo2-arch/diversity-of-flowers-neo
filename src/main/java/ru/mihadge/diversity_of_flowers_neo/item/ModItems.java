@@ -309,10 +309,6 @@ public class ModItems {
             ModBlocks.ECLIPSE
             );
 
-    public static final DeferredItem<Item> SCARLET_ROSE_ITEM =
-            ITEMS.register( "scarlet_rose",
-                    () -> new BlockItem(ModBlocks.SCARLET_ROSE .get(), new Item.Properties()));
-
     public static final DeferredItem<Item> BLUE_KIZ_ITEM =
             ITEMS.register( "blue_kiz",
                     () -> new BlockItem(ModBlocks.BLUE_KIZ .get(), new Item.Properties()));
@@ -343,7 +339,6 @@ public class ModItems {
     public static final DeferredItem<Item> VEGNET_ITEM =
             ITEMS.register( "vegnet",
                     () -> new BlockItem(ModBlocks.VEGNET .get(), new Item.Properties()));
-
 
 
 
