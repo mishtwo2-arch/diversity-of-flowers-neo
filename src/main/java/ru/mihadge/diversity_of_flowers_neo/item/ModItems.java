@@ -1,5 +1,8 @@
 package ru.mihadge.diversity_of_flowers_neo.item;
 
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.world.item.component.Consumables;
+import net.minecraft.world.item.consume_effects.ApplyStatusEffectsConsumeEffect;
 import ru.mihadge.diversity_of_flowers_neo.DiversityOfFlowersNeo;
 import ru.mihadge.diversity_of_flowers_neo.Util.IsFoil;
 import ru.mihadge.diversity_of_flowers_neo.block.ModBlocks;
@@ -11,271 +14,305 @@ import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import java.util.List;
 
 public class ModItems {
-
-
-
 
 
     public static final DeferredRegister.Items ITEMS =
             DeferredRegister.createItems(DiversityOfFlowersNeo.MODID);
 
-    public static final DeferredItem<Item> ASTER_DAISY_ITEM =
-            ITEMS.register("aster_daisy",
-                    () -> new BlockItem(ModBlocks.ASTER_DAISY.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> ASTER_DAISY_ITEM =
+            ITEMS.registerSimpleBlockItem("aster_daisy",
+            ModBlocks.ASTER_DAISY
             );
 
-    public static final DeferredItem<Item> YELLOW_TULIP_ITEM =
-            ITEMS.register("yellow_tulip",
-                    () -> new BlockItem(ModBlocks.YELLOW_TULIP.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> YELLOW_TULIP_ITEM =
+            ITEMS.registerSimpleBlockItem("yellow_tulip",
+            ModBlocks.YELLOW_TULIP
             );
 
-    public static final DeferredItem<Item> YELLOW_POPPY_ITEM =
-            ITEMS.register("yellow_poppy",
-                    () -> new BlockItem(ModBlocks.YELLOW_POPPY.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> YELLOW_POPPY_ITEM =
+            ITEMS.registerSimpleBlockItem("yellow_poppy",
+            ModBlocks.YELLOW_POPPY
             );
 
-    public static final DeferredItem<Item> YELLOW_ORCHID_ITEM =
-            ITEMS.register("yellow_orchid",
-                    () -> new BlockItem(ModBlocks.YELLOW_ORCHID.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> YELLOW_ORCHID_ITEM =
+            ITEMS.registerSimpleBlockItem("yellow_orchid",
+            ModBlocks.YELLOW_ORCHID
             );
 
-    public static final DeferredItem<Item> WHITE_POPPY_ITEM =
-            ITEMS.register("white_poppy",
-                    () -> new BlockItem(ModBlocks.WHITE_POPPY.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> WHITE_POPPY_ITEM =
+            ITEMS.registerSimpleBlockItem("white_poppy",
+            ModBlocks.WHITE_POPPY
             );
 
-    public static final DeferredItem<Item> WHITE_ORCHID_ITEM =
-            ITEMS.register("white_orchid",
-                    () -> new BlockItem(ModBlocks.WHITE_ORCHID.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> WHITE_ORCHID_ITEM =
+            ITEMS.registerSimpleBlockItem("white_orchid",
+            ModBlocks.WHITE_ORCHID
             );
 
-    public static final DeferredItem<Item> WHITE_MYOSOTIS_ITEM =
-            ITEMS.register("white_myosotis",
-                    () -> new BlockItem(ModBlocks.WHITE_MYOSOTIS.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> WHITE_MYOSOTIS_ITEM =
+            ITEMS.registerSimpleBlockItem("white_myosotis",
+            ModBlocks.WHITE_MYOSOTIS
             );
 
-    public static final DeferredItem<Item> WHITE_ALLIUM_ITEM =
-            ITEMS.register("white_allium",
-                    () -> new BlockItem(ModBlocks.WHITE_ALLIUM.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> WHITE_ALLIUM_ITEM =
+            ITEMS.registerSimpleBlockItem("white_allium",
+            ModBlocks.WHITE_ALLIUM
             );
 
-    public static final DeferredItem<Item> PURPLE_TULIP_ITEM =
-            ITEMS.register("purple_tulip",
-                    () -> new BlockItem(ModBlocks.PURPLE_TULIP.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> PURPLE_TULIP_ITEM =
+            ITEMS.registerSimpleBlockItem("purple_tulip",
+            ModBlocks.PURPLE_TULIP
             );
 
-    public static final DeferredItem<Item> PURPLE_ORCHID_ITEM =
-            ITEMS.register("purple_orchid",
-                    () -> new BlockItem(ModBlocks.PURPLE_ORCHID.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> PURPLE_ORCHID_ITEM =
+            ITEMS.registerSimpleBlockItem("purple_orchid",
+            ModBlocks.PURPLE_ORCHID
             );
 
-    public static final DeferredItem<Item> PINK_POPPY_ITEM =
-            ITEMS.register("pink_poppy",
-                    () -> new BlockItem(ModBlocks.PINK_POPPY.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> PINK_POPPY_ITEM =
+            ITEMS.registerSimpleBlockItem("pink_poppy",
+            ModBlocks.PINK_POPPY
             );
 
-    public static final DeferredItem<Item> PINK_ORCHID_ITEM =
-            ITEMS.register("pink_orchid",
-                    () -> new BlockItem(ModBlocks.PINK_ORCHID.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> PINK_ORCHID_ITEM =
+            ITEMS.registerSimpleBlockItem("pink_orchid",
+            ModBlocks.PINK_ORCHID
             );
 
-    public static final DeferredItem<Item> PINK_MYOSOTIS_ITEM =
-            ITEMS.register("pink_myosotis",
-                    () -> new BlockItem(ModBlocks.PINK_MYOSOTIS.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> PINK_MYOSOTIS_ITEM =
+            ITEMS.registerSimpleBlockItem("pink_myosotis",
+            ModBlocks.PINK_MYOSOTIS
             );
 
-    public static final DeferredItem<Item> ORANGE_POPPY_ITEM =
-            ITEMS.register("orange_poppy",
-                    () -> new BlockItem(ModBlocks.ORANGE_POPPY.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> ORANGE_POPPY_ITEM =
+            ITEMS.registerSimpleBlockItem("orange_poppy",
+            ModBlocks.ORANGE_POPPY
             );
 
-    public static final DeferredItem<Item> GLORIOSA_DAISY_ITEM =
-            ITEMS.register("gloriosa_daisy",
-                    () -> new BlockItem(ModBlocks.GLORIOSA_DAISY.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> GLORIOSA_DAISY_ITEM =
+            ITEMS.registerSimpleBlockItem("gloriosa_daisy",
+            ModBlocks.GLORIOSA_DAISY
             );
 
-    public static final DeferredItem<Item> BLUE_TULIP_ITEM =
-            ITEMS.register("blue_tulip",
-                    () -> new BlockItem(ModBlocks.BLUE_TULIP.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> BLUE_TULIP_ITEM =
+            ITEMS.registerSimpleBlockItem("blue_tulip",
+            ModBlocks.BLUE_TULIP
             );
 
-    public static final DeferredItem<Item> BLUE_MYOSOTIS_ITEM =
-            ITEMS.register("blue_myosotis",
-                    () -> new BlockItem(ModBlocks.BLUE_MYOSOTIS.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> BLUE_MYOSOTIS_ITEM =
+            ITEMS.registerSimpleBlockItem("blue_myosotis",
+            ModBlocks.BLUE_MYOSOTIS
             );
 
-    public static final DeferredItem<Item> BLUE_ALLIUM_ITEM =
-            ITEMS.register("blue_allium",
-                    () -> new BlockItem(ModBlocks.BLUE_ALLIUM.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> BLUE_ALLIUM_ITEM =
+            ITEMS.registerSimpleBlockItem("blue_allium",
+            ModBlocks.BLUE_ALLIUM
             );
 
-    public static final DeferredItem<Item> SNOW_DANDELION_ITEM =
-            ITEMS.register("snow_dandelion",
-                    () -> new BlockItem(ModBlocks.SNOW_DANDELION.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> SNOW_DANDELION_ITEM =
+            ITEMS.registerSimpleBlockItem("snow_dandelion",
+            ModBlocks.SNOW_DANDELION
             );
 
-    public static final DeferredItem<Item> BLACK_TULIP_ITEM =
-            ITEMS.register("black_tulip",
-                    () -> new BlockItem(ModBlocks.BLACK_TULIP.get(), new Item.Properties())
+    public static final DeferredItem<BlockItem> BLACK_TULIP_ITEM =
+            ITEMS.registerSimpleBlockItem("black_tulip",
+            ModBlocks.BLACK_TULIP
             );
 
-    public static final DeferredItem<Item> YELLOW_ROSE_BUSH_ITEM =
-            ITEMS.register("yellow_rose_bush",
-                    () -> new BlockItem(ModBlocks.YELLOW_ROSE_BUSH.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> YELLOW_ROSE_BUSH_ITEM =
+            ITEMS.registerSimpleBlockItem("yellow_rose_bush",
+            ModBlocks.YELLOW_ROSE_BUSH
+            );
 
-    public static final DeferredItem<Item> ASHEN_SAGE_ITEM =
-            ITEMS.register("ashen_sage",
-                    () -> new BlockItem(ModBlocks.ASHEN_SAGE.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> ASHEN_SAGE_ITEM =
+            ITEMS.registerSimpleBlockItem("ashen_sage",
+            ModBlocks.ASHEN_SAGE
+            );
 
-    public static final DeferredItem<Item> WHITE_PEONY_ITEM =
-            ITEMS.register("white_peony",
-                    () -> new BlockItem(ModBlocks.WHITE_PEONY.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> WHITE_PEONY_ITEM =
+            ITEMS.registerSimpleBlockItem("white_peony",
+            ModBlocks.WHITE_PEONY
+            );
 
-    public static final DeferredItem<Item> GOLDEN_SAGE_ITEM =
-            ITEMS.register("golden_sage",
-                    () -> new BlockItem(ModBlocks.GOLDEN_SAGE.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> GOLDEN_SAGE_ITEM =
+            ITEMS.registerSimpleBlockItem("golden_sage",
+            ModBlocks.GOLDEN_SAGE
+            );
 
-    public static final DeferredItem<Item> WHITE_ROSE_BUSH_ITEM =
-            ITEMS.register("white_rose_bush",
-                    () -> new BlockItem(ModBlocks.WHITE_ROSE_BUSH.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> WHITE_ROSE_BUSH_ITEM =
+            ITEMS.registerSimpleBlockItem("white_rose_bush",
+            ModBlocks.WHITE_ROSE_BUSH
+            );
 
-    public static final DeferredItem<Item> MAGENTA_ROSE_BUSH_ITEM =
-            ITEMS.register("magenta_rose_bush",
-                    () -> new BlockItem(ModBlocks.MAGENTA_ROSE_BUSH.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> MAGENTA_ROSE_BUSH_ITEM =
+            ITEMS.registerSimpleBlockItem("magenta_rose_bush",
+            ModBlocks.MAGENTA_ROSE_BUSH
+            );
 
-    public static final DeferredItem<Item> VIOLET_SAGE_ITEM =
-            ITEMS.register("violet_sage",
-                    () -> new BlockItem(ModBlocks.VIOLET_SAGE.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> VIOLET_SAGE_ITEM =
+            ITEMS.registerSimpleBlockItem("violet_sage",
+            ModBlocks.VIOLET_SAGE
+            );
 
-    public static final DeferredItem<Item> AZURE_SAGE_ITEM =
-            ITEMS.register("azure_sage",
-                    () -> new BlockItem(ModBlocks.AZURE_SAGE.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> AZURE_SAGE_ITEM =
+            ITEMS.registerSimpleBlockItem("azure_sage",
+            ModBlocks.AZURE_SAGE
+            );
 
-    public static final DeferredItem<Item> PURPLE_ROSE_BUSH_ITEM =
-            ITEMS.register("purple_rose_bush",
-                    () -> new BlockItem(ModBlocks.PURPLE_ROSE_BUSH.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> PURPLE_ROSE_BUSH_ITEM =
+            ITEMS.registerSimpleBlockItem("purple_rose_bush",
+            ModBlocks.PURPLE_ROSE_BUSH
+            );
 
-    public static final DeferredItem<Item> SCARLET_SAGE_ITEM =
-            ITEMS.register("scarlet_sage",
-                    () -> new BlockItem(ModBlocks.SCARLET_SAGE.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> SCARLET_SAGE_ITEM =
+            ITEMS.registerSimpleBlockItem("scarlet_sage",
+            ModBlocks.SCARLET_SAGE
+            );
 
-    public static final DeferredItem<Item> RED_PEONY_ITEM =
-            ITEMS.register("red_peony",
-                    () -> new BlockItem(ModBlocks.RED_PEONY.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> RED_PEONY_ITEM =
+            ITEMS.registerSimpleBlockItem("red_peony",
+            ModBlocks.RED_PEONY
+            );
 
-    public static final DeferredItem<Item> PINK_ROSE_BUSH_ITEM =
-            ITEMS.register("pink_rose_bush",
-                    () -> new BlockItem(ModBlocks.PINK_ROSE_BUSH.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> PINK_ROSE_BUSH_ITEM =
+            ITEMS.registerSimpleBlockItem("pink_rose_bush",
+            ModBlocks.PINK_ROSE_BUSH
+            );
 
-    public static final DeferredItem<Item> PINK_PEONY_ITEM =
-            ITEMS.register("pink_peony",
-                    () -> new BlockItem(ModBlocks.PINK_PEONY.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> PINK_PEONY_ITEM =
+            ITEMS.registerSimpleBlockItem("pink_peony",
+            ModBlocks.PINK_PEONY
+            );
 
-    public static final DeferredItem<Item> ORANGE_ROSE_BUSH_ITEM =
-            ITEMS.register("orange_rose_bush",
-                    () -> new BlockItem(ModBlocks.ORANGE_ROSE_BUSH.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> ORANGE_ROSE_BUSH_ITEM =
+            ITEMS.registerSimpleBlockItem("orange_rose_bush",
+            ModBlocks.ORANGE_ROSE_BUSH
+            );
 
-    public static final DeferredItem<Item> MOONFLOWER_ITEM =
-            ITEMS.register("moonflower",
-                    () -> new BlockItem(ModBlocks.MOONFLOWER.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> MOONFLOWER_ITEM =
+            ITEMS.registerSimpleBlockItem("moonflower",
+            ModBlocks.MOONFLOWER
+            );
 
 
-    public static final DeferredItem<Item> PURPLE_ANEMONE_ITEM =
-            ITEMS.register("purple_anemone",
-                    () -> new BlockItem(ModBlocks.PURPLE_ANEMONE.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> PURPLE_ANEMONE_ITEM =
+            ITEMS.registerSimpleBlockItem("purple_anemone",
+            ModBlocks.PURPLE_ANEMONE
+            );
 
-    public static final DeferredItem<Item> PEACH_ANEMONE_ITEM =
-            ITEMS.register("peach_anemone",
-                    () -> new BlockItem(ModBlocks.PEACH_ANEMONE.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> PEACH_ANEMONE_ITEM =
+            ITEMS.registerSimpleBlockItem("peach_anemone",
+           ModBlocks.PEACH_ANEMONE
+            );
 
-    public static final DeferredItem<Item> NIGHT_ANEMONE_ITEM =
-            ITEMS.register("night_anemone",
-                    () -> new BlockItem(ModBlocks.NIGHT_ANEMONE.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> NIGHT_ANEMONE_ITEM =
+            ITEMS.registerSimpleBlockItem("night_anemone",
+            ModBlocks.NIGHT_ANEMONE
+            );
 
-    public static final DeferredItem<Item> PINK_ANEMONE_ITEM =
-            ITEMS.register("pink_anemone",
-                    () -> new BlockItem(ModBlocks.PINK_ANEMONE.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> PINK_ANEMONE_ITEM =
+            ITEMS.registerSimpleBlockItem("pink_anemone",
+            ModBlocks.PINK_ANEMONE
+            );
 
-    public static final DeferredItem<Item> TURQUOISE_ANEMONE_ITEM =
-            ITEMS.register("turquoise_anemone",
-                    () -> new BlockItem(ModBlocks.TURQUOISE_ANEMONE.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> TURQUOISE_ANEMONE_ITEM =
+            ITEMS.registerSimpleBlockItem("turquoise_anemone",
+            ModBlocks.TURQUOISE_ANEMONE
+            );
 
-    public static final DeferredItem<Item> YELLOW_ANEMONE_ITEM =
-            ITEMS.register("yellow_anemone",
-                    () -> new BlockItem(ModBlocks.YELLOW_ANEMONE.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> YELLOW_ANEMONE_ITEM =
+            ITEMS.registerSimpleBlockItem("yellow_anemone",
+            ModBlocks.YELLOW_ANEMONE
+            );
 
-    public static final DeferredItem<Item> ALMIUS_ITEM =
-            ITEMS.register("almius",
-                    () -> new BlockItem(ModBlocks.ALMIUS.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> ALMIUS_ITEM =
+            ITEMS.registerSimpleBlockItem("almius",
+            ModBlocks.ALMIUS
+            );
 
-    public static final DeferredItem<Item> BLUE_PERIWINKLE_ITEM =
-            ITEMS.register("blue_periwinkle",
-                    () -> new BlockItem(ModBlocks.BLUE_PERIWINKLE.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> BLUE_PERIWINKLE_ITEM =
+            ITEMS.registerSimpleBlockItem("blue_periwinkle",
+            ModBlocks.BLUE_PERIWINKLE
+            );
 
-    public static final DeferredItem<Item> HEART_FLOWER_ITEM =
-            ITEMS.register("heart_flower",
-                    () -> new BlockItem(
-                            ModBlocks.HEART_FLOWER.get(),
-                            new Item.Properties().food(
-                                    new FoodProperties.Builder()
-                                            .nutrition(0)
-                                            .saturationModifier(0.2F)
-                                            .effect(() -> new MobEffectInstance(
+    public static final DeferredItem<BlockItem> HEART_FLOWER_ITEM =
+            ITEMS.registerSimpleBlockItem("heart_flower",
+                    ModBlocks.HEART_FLOWER,
+                    new Item.Properties()
+                            .component(DataComponents.FOOD, new FoodProperties.Builder()
+                                    .nutrition(0)
+                                    .saturationModifier(0.2F)
+                                    .alwaysEdible()
+                                    .build())
+                            .component(DataComponents.CONSUMABLE, Consumables.defaultFood()
+                                    .onConsume(new ApplyStatusEffectsConsumeEffect(
+                                            List.of(new MobEffectInstance(
                                                     MobEffects.REGENERATION,
                                                     44 * 20,
                                                     1
-                                            ), 1.0F)
-                                            .alwaysEdible()
-                                            .build()
-                            )
-                    ));
+                                            ))
+                                    ))
+                                    .build())
+            );
 
-    public static final DeferredItem<Item> PURPLE_PERIWINKLE_ITEM =
-            ITEMS.register("purple_periwinkle",
-                    () -> new BlockItem(ModBlocks.PURPLE_PERIWINKLE.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> PURPLE_PERIWINKLE_ITEM =
+            ITEMS.registerSimpleBlockItem("purple_periwinkle",
+            ModBlocks.PURPLE_PERIWINKLE
+            );
 
-    public static final DeferredItem<Item> RED_PERIWINKLE_ITEM =
-            ITEMS.register("red_periwinkle",
-                    () -> new BlockItem(ModBlocks.RED_PERIWINKLE.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> RED_PERIWINKLE_ITEM =
+            ITEMS.registerSimpleBlockItem("red_periwinkle",
+            ModBlocks.RED_PERIWINKLE
+            );
 
-    public static final DeferredItem<Item> RED_FAGUSA_ITEM =
-            ITEMS.register("red_fagusa",
-                    () -> new BlockItem(ModBlocks.RED_FAGUSA.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> RED_FAGUSA_ITEM =
+            ITEMS.registerSimpleBlockItem("red_fagusa",
+            ModBlocks.RED_FAGUSA
+            );
 
-    public static final DeferredItem<Item> BLUE_FAGUSA_ITEM =
-            ITEMS.register("blue_fagusa",
-                    () -> new BlockItem(ModBlocks.BLUE_FAGUSA.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> BLUE_FAGUSA_ITEM =
+            ITEMS.registerSimpleBlockItem("blue_fagusa",
+            ModBlocks.BLUE_FAGUSA
+            );
 
-    public static final DeferredItem<Item> GREEN_FAGUSA_ITEM =
-            ITEMS.register("green_fagusa",
-                    () -> new BlockItem(ModBlocks.GREEN_FAGUSA.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> GREEN_FAGUSA_ITEM =
+            ITEMS.registerSimpleBlockItem("green_fagusa",
+            ModBlocks.GREEN_FAGUSA
+            );
 
-    public static final DeferredItem<Item> WATER_KERALIY_ITEM =
-            ITEMS.register("water_keraliy",
-                    () -> new BlockItem(ModBlocks.WATER_KERALIY.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> WATER_KERALIY_ITEM =
+            ITEMS.registerSimpleBlockItem("water_keraliy",
+            ModBlocks.WATER_KERALIY
+            );
 
-    public static final DeferredItem<Item> MOON_STAR_ITEM =
-            ITEMS.register("moon_star",
-                    () -> new IsFoil(new Item.Properties()));
+    public static final DeferredItem<IsFoil> MOON_STAR_ITEM = ITEMS.registerItem(
+            "moon_star",
+            properties -> new IsFoil(properties),
+            new Item.Properties()
+    );
 
-    public static final DeferredItem<Item> ABYSS_ITEM =
-            ITEMS.register( "abyss",
-                    () -> new BlockItem(ModBlocks.ABYSS.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> ABYSS_ITEM =
+            ITEMS.registerSimpleBlockItem( "abyss",
+            ModBlocks.ABYSS
+            );
 
-    public static final DeferredItem<Item> ABYSS_S_SPROUT_ITEM =
-            ITEMS.register( "abyss_s_sprout",
-                    () -> new BlockItem(ModBlocks.ABYSS_S_SPROUT.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> ABYSS_S_SPROUT_ITEM =
+            ITEMS.registerSimpleBlockItem( "abyss_s_sprout",
+            ModBlocks.ABYSS_S_SPROUT
+            );
 
-    public static final DeferredItem<Item> ECLIPSE_ITEM =
-            ITEMS.register( "eclipse",
-                    () -> new BlockItem(ModBlocks.ECLIPSE .get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> ECLIPSE_ITEM =
+            ITEMS.registerSimpleBlockItem( "eclipse",
+            ModBlocks.ECLIPSE
+            );
 
 
-    public static final DeferredItem<Item> TEST_ITEM =
-            ITEMS.register("test",
-                    () -> new BlockItem(ModBlocks.TEST.get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> TEST_ITEM =
+            ITEMS.registerSimpleBlockItem("test",
+            ModBlocks.TEST);
 
 
     public static void register(IEventBus eventBus) {

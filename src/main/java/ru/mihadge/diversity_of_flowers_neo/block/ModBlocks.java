@@ -18,11 +18,11 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(DiversityOfFlowersNeo.MODID);
 
-    private static Block createFlower() {
+    private static Block createFlower(BlockBehaviour.Properties props) {
         return new FlowerBlock(
                 MobEffects.LUCK,
                 0.0F,
-                BlockBehaviour.Properties.of()
+                props
                         .mapColor(MapColor.PLANT)
                         .noCollission()
                         .instabreak()
@@ -31,36 +31,34 @@ public class ModBlocks {
         );
     }
 
-    private static Block createEndFlower() {
+    private static Block createEndFlower(BlockBehaviour.Properties properties) {
         return new ModEndFlower(
                 MobEffects.LUCK,
                 0.0F,
-                BlockBehaviour.Properties.of()
+                properties
                         .mapColor(MapColor.PLANT)
                         .noCollission()
                         .instabreak()
                         .sound(SoundType.GRASS)
                         .offsetType(BlockBehaviour.OffsetType.XZ)
                         .lightLevel(state -> 15)
-
-
         );
     }
 
-    private static Block createPotted(DeferredBlock<Block> flower) {
+    private static Block createPotted(DeferredBlock<Block> flower, BlockBehaviour.Properties properties) {
         return new FlowerPotBlock(
                 () -> (FlowerPotBlock) Blocks.FLOWER_POT,
                 flower,
-                BlockBehaviour.Properties.of()
+                properties
                         .instabreak()
                         .noOcclusion()
                         .sound(SoundType.GRASS)
         );
     }
 
-    private static Block createTallFlower() {
+    private static Block createTallFlower(BlockBehaviour.Properties properties) {
         return new TallFlowerBlock(
-                BlockBehaviour.Properties.of()
+                properties
                         .mapColor(MapColor.PLANT)
                         .noCollission()
                         .instabreak()
@@ -71,254 +69,252 @@ public class ModBlocks {
 
 
     public static final DeferredBlock<Block> ASTER_DAISY =
-            BLOCKS.register("aster_daisy",ModBlocks::createFlower);
+            BLOCKS.registerBlock("aster_daisy",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_ASTER_DAISY =
-            BLOCKS.register("potted_aster_daisy", () -> createPotted(ASTER_DAISY));
+            BLOCKS.registerBlock("potted_aster_daisy", properties -> createPotted(ASTER_DAISY, properties));
 
     public static final DeferredBlock<Block> YELLOW_TULIP =
-            BLOCKS.register("yellow_tulip",ModBlocks::createFlower);
+            BLOCKS.registerBlock("yellow_tulip",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_YELLOW_TULIP =
-            BLOCKS.register("potted_yellow_tulip", () -> createPotted(YELLOW_TULIP));
+            BLOCKS.registerBlock("potted_yellow_tulip", properties -> createPotted(YELLOW_TULIP, properties));
 
     public static final DeferredBlock<Block> YELLOW_POPPY =
-            BLOCKS.register("yellow_poppy",ModBlocks::createFlower);
+            BLOCKS.registerBlock("yellow_poppy",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_YELLOW_POPPY =
-            BLOCKS.register("potted_yellow_poppy", () -> createPotted(YELLOW_POPPY));
+            BLOCKS.registerBlock("potted_yellow_poppy", properties -> createPotted(YELLOW_POPPY, properties));
 
     public static final DeferredBlock<Block> YELLOW_ORCHID =
-            BLOCKS.register("yellow_orchid",ModBlocks::createFlower);
+            BLOCKS.registerBlock("yellow_orchid",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_YELLOW_ORCHID =
-            BLOCKS.register("potted_yellow_orchid", () -> createPotted(YELLOW_ORCHID));
+            BLOCKS.registerBlock("potted_yellow_orchid", properties -> createPotted(YELLOW_ORCHID, properties));
 
 
 
     public static final DeferredBlock<Block> PURPLE_ANEMONE =
-            BLOCKS.register("purple_anemone",ModBlocks::createFlower);
+            BLOCKS.registerBlock("purple_anemone",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_PURPLE_ANEMONE =
-            BLOCKS.register("potted_purple_anemone", () -> createPotted(PURPLE_ANEMONE));
+            BLOCKS.registerBlock("potted_purple_anemone", properties -> createPotted(PURPLE_ANEMONE, properties));
 
     public static final DeferredBlock<Block> PEACH_ANEMONE =
-            BLOCKS.register("peach_anemone",ModBlocks::createFlower);
+            BLOCKS.registerBlock("peach_anemone",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_PEACH_ANEMONE =
-            BLOCKS.register("potted_peach_anemone", () -> createPotted(PEACH_ANEMONE));
+            BLOCKS.registerBlock("potted_peach_anemone", properties -> createPotted(PEACH_ANEMONE, properties));
 
     public static final DeferredBlock<Block> NIGHT_ANEMONE =
-            BLOCKS.register("night_anemone",ModBlocks::createFlower);
+            BLOCKS.registerBlock("night_anemone",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_NIGHT_ANEMONE =
-            BLOCKS.register("potted_night_anemone", () -> createPotted(NIGHT_ANEMONE));
+            BLOCKS.registerBlock("potted_night_anemone", properties -> createPotted(NIGHT_ANEMONE, properties));
 
     public static final DeferredBlock<Block> PINK_ANEMONE =
-            BLOCKS.register("pink_anemone",ModBlocks::createFlower);
+            BLOCKS.registerBlock("pink_anemone",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_PINK_ANEMONE =
-            BLOCKS.register("potted_pink_anemone", () -> createPotted(PINK_ANEMONE));
+            BLOCKS.registerBlock("potted_pink_anemone", properties -> createPotted(PINK_ANEMONE, properties));
 
     public static final DeferredBlock<Block> TURQUOISE_ANEMONE =
-            BLOCKS.register("turquoise_anemone",ModBlocks::createFlower);
+            BLOCKS.registerBlock("turquoise_anemone",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_TURQUOISE_ANEMONE =
-            BLOCKS.register("potted_turquoise_anemone", () -> createPotted(TURQUOISE_ANEMONE));
+            BLOCKS.registerBlock("potted_turquoise_anemone", properties -> createPotted(TURQUOISE_ANEMONE, properties));
 
     public static final DeferredBlock<Block> YELLOW_ANEMONE =
-            BLOCKS.register("yellow_anemone",ModBlocks::createFlower);
+            BLOCKS.registerBlock("yellow_anemone",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_YELLOW_ANEMONE =
-            BLOCKS.register("potted_yellow_anemone", () -> createPotted(YELLOW_ANEMONE));
+            BLOCKS.registerBlock("potted_yellow_anemone", properties -> createPotted(YELLOW_ANEMONE, properties));
 
     public static final DeferredBlock<Block> ALMIUS =
-            BLOCKS.register("almius",ModBlocks::createFlower);
+            BLOCKS.registerBlock("almius",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_ALMIUS =
-            BLOCKS.register("potted_almius", () -> createPotted(ALMIUS));
+            BLOCKS.registerBlock("potted_almius", properties -> createPotted(ALMIUS, properties));
 
     public static final DeferredBlock<Block> BLUE_PERIWINKLE =
-            BLOCKS.register("blue_periwinkle",ModBlocks::createFlower);
+            BLOCKS.registerBlock("blue_periwinkle",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_BLUE_PERIWINKLE =
-            BLOCKS.register("potted_blue_periwinkle", () -> createPotted(BLUE_PERIWINKLE));
+            BLOCKS.registerBlock("potted_blue_periwinkle", properties -> createPotted(BLUE_PERIWINKLE, properties));
 
     public static final DeferredBlock<Block> HEART_FLOWER =
-            BLOCKS.register("heart_flower",
-                    () -> new RegenerationFlowerBlock(
-                            BlockBehaviour.Properties.of()
+            BLOCKS.registerBlock("heart_flower",
+                    properties -> new Block(
+                            properties
                                     .mapColor(MapColor.PLANT)
                                     .noCollission()
                                     .instabreak()
                                     .sound(SoundType.GRASS)
-                                    .offsetType(BlockBehaviour.OffsetType.XZ)
                     ));
 
     public static final DeferredBlock<Block> POTTED_HEART_FLOWER =
-            BLOCKS.register("potted_heart_flower", () -> createPotted(HEART_FLOWER));
+            BLOCKS.registerBlock("potted_heart_flower", properties -> createPotted(HEART_FLOWER, properties));
 
     public static final DeferredBlock<Block> PURPLE_PERIWINKLE =
-            BLOCKS.register("purple_periwinkle",ModBlocks::createFlower);
+            BLOCKS.registerBlock("purple_periwinkle",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_PURPLE_PERIWINKLE =
-            BLOCKS.register("potted_purple_periwinkle", () -> createPotted(PURPLE_PERIWINKLE));
+            BLOCKS.registerBlock("potted_purple_periwinkle", properties -> createPotted(PURPLE_PERIWINKLE, properties));
 
     public static final DeferredBlock<Block> RED_PERIWINKLE =
-            BLOCKS.register("red_periwinkle",ModBlocks::createFlower);
+            BLOCKS.registerBlock("red_periwinkle",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_RED_PERIWINKLE =
-            BLOCKS.register("potted_red_periwinkle", () -> createPotted(RED_PERIWINKLE));
+            BLOCKS.registerBlock("potted_red_periwinkle", properties -> createPotted(RED_PERIWINKLE, properties));
 
     public static final DeferredBlock<Block> RED_FAGUSA =
-            BLOCKS.register("red_fagusa",ModBlocks::createFlower);
+            BLOCKS.registerBlock("red_fagusa",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_RED_FAGUSA =
-            BLOCKS.register("potted_red_fagusa", () -> createPotted(RED_FAGUSA));
+            BLOCKS.registerBlock("potted_red_fagusa", properties -> createPotted(RED_FAGUSA, properties));
 
     public static final DeferredBlock<Block> BLUE_FAGUSA =
-            BLOCKS.register("blue_fagusa",ModBlocks::createFlower);
+            BLOCKS.registerBlock("blue_fagusa",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_BLUE_FAGUSA =
-            BLOCKS.register("potted_blue_fagusa", () -> createPotted(BLUE_FAGUSA));
+            BLOCKS.registerBlock("potted_blue_fagusa", properties -> createPotted(BLUE_FAGUSA, properties));
 
     public static final DeferredBlock<Block> GREEN_FAGUSA =
-            BLOCKS.register("green_fagusa",ModBlocks::createFlower);
+            BLOCKS.registerBlock("green_fagusa",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_GREEN_FAGUSA =
-            BLOCKS.register("potted_green_fagusa", () -> createPotted(GREEN_FAGUSA));
+            BLOCKS.registerBlock("potted_green_fagusa", properties -> createPotted(GREEN_FAGUSA, properties));
 
     public static final DeferredBlock<Block> WATER_KERALIY =
-            BLOCKS.register("water_keraliy",ModBlocks::createFlower);
+            BLOCKS.registerBlock("water_keraliy",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_WATER_KERALIY =
-            BLOCKS.register("potted_water_keraliy", () -> createPotted(WATER_KERALIY));
+            BLOCKS.registerBlock("potted_water_keraliy", properties -> createPotted(WATER_KERALIY, properties));
 
 
 
 
     public static final DeferredBlock<Block> TEST =
-            BLOCKS.register("test",ModBlocks::createFlower);
+            BLOCKS.registerBlock("test",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_TEST =
-            BLOCKS.register("potted_test", () -> createPotted(TEST));
+            BLOCKS.registerBlock("potted_test", properties -> createPotted(TEST, properties));
 
 
 
     public static final DeferredBlock<Block> WHITE_POPPY =
-            BLOCKS.register("white_poppy",ModBlocks::createFlower);
+            BLOCKS.registerBlock("white_poppy",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_WHITE_POPPY =
-            BLOCKS.register("potted_white_poppy", () -> createPotted(WHITE_POPPY));
+            BLOCKS.registerBlock("potted_white_poppy", properties -> createPotted(WHITE_POPPY, properties));
 
     public static final DeferredBlock<Block> WHITE_ORCHID =
-            BLOCKS.register("white_orchid",ModBlocks::createFlower);
+            BLOCKS.registerBlock("white_orchid",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_WHITE_ORCHID =
-            BLOCKS.register("potted_white_orchid", () -> createPotted(WHITE_ORCHID));
+            BLOCKS.registerBlock("potted_white_orchid", properties -> createPotted(WHITE_ORCHID, properties));
 
     public static final DeferredBlock<Block> WHITE_MYOSOTIS =
-            BLOCKS.register("white_myosotis",ModBlocks::createFlower);
+            BLOCKS.registerBlock("white_myosotis",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_WHITE_MYOSOTIS =
-            BLOCKS.register("potted_white_myosotis", () -> createPotted(WHITE_MYOSOTIS));
+            BLOCKS.registerBlock("potted_white_myosotis", properties -> createPotted(WHITE_MYOSOTIS, properties));
 
     public static final DeferredBlock<Block> WHITE_ALLIUM =
-            BLOCKS.register("white_allium",ModBlocks::createFlower);
+            BLOCKS.registerBlock("white_allium",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_WHITE_ALLIUM =
-            BLOCKS.register("potted_white_allium", () -> createPotted(WHITE_ALLIUM));
+            BLOCKS.registerBlock("potted_white_allium", properties -> createPotted(WHITE_ALLIUM, properties));
 
     public static final DeferredBlock<Block> PURPLE_TULIP =
-            BLOCKS.register("purple_tulip",ModBlocks::createFlower);
+            BLOCKS.registerBlock("purple_tulip",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_PURPLE_TULIP =
-            BLOCKS.register("potted_purple_tulip", () -> createPotted(PURPLE_TULIP));
+            BLOCKS.registerBlock("potted_purple_tulip", properties -> createPotted(PURPLE_TULIP, properties));
 
     public static final DeferredBlock<Block> PURPLE_ORCHID =
-            BLOCKS.register("purple_orchid",ModBlocks::createFlower);
+            BLOCKS.registerBlock("purple_orchid",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_PURPLE_ORCHID =
-            BLOCKS.register("potted_purple_orchid", () -> createPotted(PURPLE_ORCHID));
+            BLOCKS.registerBlock("potted_purple_orchid", properties -> createPotted(PURPLE_ORCHID, properties));
 
     public static final DeferredBlock<Block> PINK_POPPY =
-            BLOCKS.register("pink_poppy",ModBlocks::createFlower);
+            BLOCKS.registerBlock("pink_poppy",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_PINK_POPPY =
-            BLOCKS.register("potted_pink_poppy", () -> createPotted(PINK_POPPY));
+            BLOCKS.registerBlock("potted_pink_poppy", properties -> createPotted(PINK_POPPY, properties));
 
     public static final DeferredBlock<Block> PINK_ORCHID =
-            BLOCKS.register("pink_orchid",ModBlocks::createFlower);
+            BLOCKS.registerBlock("pink_orchid",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_PINK_ORCHID =
-            BLOCKS.register("potted_pink_orchid", () -> createPotted(PINK_ORCHID));
+            BLOCKS.registerBlock("potted_pink_orchid", properties -> createPotted(PINK_ORCHID, properties));
 
     public static final DeferredBlock<Block> PINK_MYOSOTIS =
-            BLOCKS.register("pink_myosotis",ModBlocks::createFlower);
+            BLOCKS.registerBlock("pink_myosotis",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_PINK_MYOSOTIS =
-            BLOCKS.register("potted_pink_myosotis", () -> createPotted(PINK_MYOSOTIS));
+            BLOCKS.registerBlock("potted_pink_myosotis", properties -> createPotted(PINK_MYOSOTIS, properties));
 
     public static final DeferredBlock<Block> ORANGE_POPPY =
-            BLOCKS.register("orange_poppy",ModBlocks::createFlower);
+            BLOCKS.registerBlock("orange_poppy",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_ORANGE_POPPY =
-            BLOCKS.register("potted_orange_poppy", () -> createPotted(ORANGE_POPPY));
+            BLOCKS.registerBlock("potted_orange_poppy", properties -> createPotted(ORANGE_POPPY, properties));
 
     public static final DeferredBlock<Block> GLORIOSA_DAISY =
-            BLOCKS.register("gloriosa_daisy",ModBlocks::createFlower);
+            BLOCKS.registerBlock("gloriosa_daisy",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_GLORIOSA_DAISY =
-            BLOCKS.register("potted_gloriosa_daisy", () -> createPotted(GLORIOSA_DAISY));
+            BLOCKS.registerBlock("potted_gloriosa_daisy", properties -> createPotted(GLORIOSA_DAISY, properties));
 
     public static final DeferredBlock<Block> BLUE_TULIP =
-            BLOCKS.register("blue_tulip",ModBlocks::createFlower);
+            BLOCKS.registerBlock("blue_tulip",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_BLUE_TULIP =
-            BLOCKS.register("potted_blue_tulip", () -> createPotted(BLUE_TULIP));
+            BLOCKS.registerBlock("potted_blue_tulip", properties -> createPotted(BLUE_TULIP, properties));
 
     public static final DeferredBlock<Block> BLUE_MYOSOTIS =
-            BLOCKS.register("blue_myosotis",ModBlocks::createFlower);
+            BLOCKS.registerBlock("blue_myosotis",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_BLUE_MYOSOTIS =
-            BLOCKS.register("potted_blue_myosotis", () -> createPotted(BLUE_MYOSOTIS));
+            BLOCKS.registerBlock("potted_blue_myosotis", properties -> createPotted(BLUE_MYOSOTIS, properties));
 
     public static final DeferredBlock<Block> BLUE_ALLIUM =
-            BLOCKS.register("blue_allium",ModBlocks::createFlower);
+            BLOCKS.registerBlock("blue_allium",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_BLUE_ALLIUM =
-            BLOCKS.register("potted_blue_allium", () -> createPotted(BLUE_ALLIUM));
+            BLOCKS.registerBlock("potted_blue_allium", properties -> createPotted(BLUE_ALLIUM, properties));
 
 
     public static final DeferredBlock<Block> BLACK_TULIP =
-            BLOCKS.register("black_tulip",ModBlocks::createFlower);
+            BLOCKS.registerBlock("black_tulip",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_BLACK_TULIP =
-            BLOCKS.register("potted_black_tulip", () -> createPotted(BLACK_TULIP));
+            BLOCKS.registerBlock("potted_black_tulip", properties -> createPotted(BLACK_TULIP, properties));
 
 
     public static final  DeferredBlock<Block> ABYSS =
-            BLOCKS.register("abyss",ModBlocks::createEndFlower);
+            BLOCKS.registerBlock("abyss",ModBlocks::createEndFlower);
 
     public static final DeferredBlock<Block> POTTED_ABYSS =
-            BLOCKS.register("potted_abyss", () -> createPotted(ABYSS));
+            BLOCKS.registerBlock("potted_abyss", properties -> createPotted(ABYSS, properties));
 
 public static final DeferredBlock<Block> ABYSS_S_SPROUT =
-        BLOCKS.register("abyss_s_sprout", ModBlocks::createEndFlower);
+        BLOCKS.registerBlock("abyss_s_sprout", ModBlocks::createEndFlower);
 
     public static final  DeferredBlock<Block> ECLIPSE =
-            BLOCKS.register("eclipse",ModBlocks::createEndFlower);
+            BLOCKS.registerBlock("eclipse",ModBlocks::createEndFlower);
 
     public static final DeferredBlock<Block> POTTED_ECLIPSE =
-            BLOCKS.register("potted_eclipse", () -> createPotted(ECLIPSE));
-
+            BLOCKS.registerBlock("potted_eclipse", properties -> createPotted(ECLIPSE, properties));
 
     public static final DeferredBlock<Block> SNOW_DANDELION =
-            BLOCKS.register("snow_dandelion",
-                    () -> new ModSnowFlower(
+            BLOCKS.registerBlock("snow_dandelion",
+                    properties -> new ModSnowFlower(
                             MobEffects.LUCK,
                             0.0F,
-                            BlockBehaviour.Properties.of()
+                            properties
                                     .mapColor(MapColor.PLANT)
                                     .noCollission()
                                     .instabreak()
@@ -328,64 +324,65 @@ public static final DeferredBlock<Block> ABYSS_S_SPROUT =
 
 
     public static final DeferredBlock<Block> POTTED_SNOW_DANDELION =
-            BLOCKS.register("potted_snow_dandelion", () -> createPotted(SNOW_DANDELION));
-
+            BLOCKS.registerBlock("potted_snow_dandelion", properties -> createPotted(SNOW_DANDELION, properties));
 
     public static final DeferredBlock<Block> ASHEN_SAGE =
-            BLOCKS.register("ashen_sage",
-                    () -> new ModSnowTallFlower(
-                            BlockBehaviour.Properties.of()
+            BLOCKS.registerBlock("ashen_sage",
+                    properties -> new ModSnowTallFlower(
+                            properties
+                                    .mapColor(MapColor.PLANT)
                                     .noCollission()
                                     .instabreak()
                                     .sound(SoundType.GRASS)
+                                    .offsetType(BlockBehaviour.OffsetType.XZ)
                     ));
 
 
 
     public static final DeferredBlock<Block> YELLOW_ROSE_BUSH =
-            BLOCKS.register("yellow_rose_bush", ModBlocks::createTallFlower);
+            BLOCKS.registerBlock("yellow_rose_bush", ModBlocks::createTallFlower);
 
 
     public static final DeferredBlock<Block> WHITE_PEONY =
-            BLOCKS.register("white_peony", ModBlocks::createTallFlower);
+            BLOCKS.registerBlock("white_peony", ModBlocks::createTallFlower);
 
     public static final DeferredBlock<Block> GOLDEN_SAGE =
-            BLOCKS.register("golden_sage", ModBlocks::createTallFlower);
+            BLOCKS.registerBlock("golden_sage", ModBlocks::createTallFlower);
 
     public static final DeferredBlock<Block> WHITE_ROSE_BUSH =
-            BLOCKS.register("white_rose_bush", ModBlocks::createTallFlower);
+            BLOCKS.registerBlock("white_rose_bush", ModBlocks::createTallFlower);
 
     public static final DeferredBlock<Block> MAGENTA_ROSE_BUSH =
-            BLOCKS.register("magenta_rose_bush", ModBlocks::createTallFlower);
+            BLOCKS.registerBlock("magenta_rose_bush", ModBlocks::createTallFlower);
 
     public static final DeferredBlock<Block> VIOLET_SAGE =
-            BLOCKS.register("violet_sage", ModBlocks::createTallFlower);
+            BLOCKS.registerBlock("violet_sage", ModBlocks::createTallFlower);
 
     public static final DeferredBlock<Block> AZURE_SAGE =
-            BLOCKS.register("azure_sage", ModBlocks::createTallFlower);
+            BLOCKS.registerBlock("azure_sage", ModBlocks::createTallFlower);
 
     public static final DeferredBlock<Block> PURPLE_ROSE_BUSH =
-            BLOCKS.register("purple_rose_bush", ModBlocks::createTallFlower);
+            BLOCKS.registerBlock("purple_rose_bush", ModBlocks::createTallFlower);
 
     public static final DeferredBlock<Block> SCARLET_SAGE =
-            BLOCKS.register("scarlet_sage", ModBlocks::createTallFlower);
+            BLOCKS.registerBlock("scarlet_sage", ModBlocks::createTallFlower);
 
     public static final DeferredBlock<Block> RED_PEONY =
-            BLOCKS.register("red_peony", ModBlocks::createTallFlower);
+            BLOCKS.registerBlock("red_peony", ModBlocks::createTallFlower);
 
     public static final DeferredBlock<Block> PINK_ROSE_BUSH =
-            BLOCKS.register("pink_rose_bush", ModBlocks::createTallFlower);
+            BLOCKS.registerBlock("pink_rose_bush", ModBlocks::createTallFlower);
 
     public static final DeferredBlock<Block> PINK_PEONY =
-            BLOCKS.register("pink_peony", ModBlocks::createTallFlower);
+            BLOCKS.registerBlock("pink_peony", ModBlocks::createTallFlower);
 
     public static final DeferredBlock<Block> ORANGE_ROSE_BUSH =
-            BLOCKS.register("orange_rose_bush", ModBlocks::createTallFlower);
+            BLOCKS.registerBlock("orange_rose_bush", ModBlocks::createTallFlower);
 
     public static final DeferredBlock<Block> MOONFLOWER =
-            BLOCKS.register("moonflower",
-                    () -> new MoonFlowerBlock(
-                            BlockBehaviour.Properties.of()
+            BLOCKS.registerBlock("moonflower",
+                    properties -> new MoonFlowerBlock(
+                            properties
                                     .mapColor(MapColor.PLANT)
                                     .noCollission()
                                     .instabreak()

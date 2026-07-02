@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "diversity_of_flowers_neo:block/white_orchid"
+  }
+}
