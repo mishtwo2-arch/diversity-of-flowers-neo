@@ -294,29 +294,29 @@ public class ModBlocks {
             BLOCKS.registerBlock("potted_black_tulip", properties -> createPotted(BLACK_TULIP, properties));
 
     public static final DeferredBlock<Block> BLUE_KIZ =
-            BLOCKS.register("blue_kiz",ModBlocks::createFlower);
+            BLOCKS.registerBlock("blue_kiz",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_BLUE_KIZ =
-            BLOCKS.register("potted_blue_kiz", () -> createPotted(BLUE_KIZ));
+            BLOCKS.registerBlock("potted_blue_kiz", properties -> createPotted(BLUE_KIZ, properties));
 
     public static final DeferredBlock<Block> DAURIN =
-            BLOCKS.register("daurin",ModBlocks::createFlower);
+            BLOCKS.registerBlock("daurin",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_DAURIN =
-            BLOCKS.register("potted_daurin", () -> createPotted(DAURIN));
+            BLOCKS.registerBlock("potted_daurin", properties -> createPotted(DAURIN, properties));
 
     public static final DeferredBlock<Block> CHRISTALIT =
-            BLOCKS.register("christalit",ModBlocks::createFlower);
+            BLOCKS.registerBlock("christalit",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_CHRISTALIT =
-            BLOCKS.register("potted_christalit", () -> createPotted(BLUE_KIZ));
+            BLOCKS.registerBlock("potted_christalit", properties -> createPotted(BLUE_KIZ, properties));
 
     public static final DeferredBlock<Block> FROIDEUR =
-            BLOCKS.register("froideur",
-                    () -> new ModSnowFlower(
+            BLOCKS.registerBlock("froideur",
+                    properties -> new ModSnowFlower(
                             MobEffects.LUCK,
                             0.0F,
-                            BlockBehaviour.Properties.of()
+                            properties
                                     .mapColor(MapColor.PLANT)
                                     .noCollission()
                                     .instabreak()
@@ -325,13 +325,13 @@ public class ModBlocks {
                     ));
 
     public static final DeferredBlock<Block> POTTED_FROIDEUR =
-            BLOCKS.register("potted_froideur", () -> createPotted(BLUE_KIZ));
+            BLOCKS.registerBlock("potted_froideur", properties -> createPotted(BLUE_KIZ, properties));
 
     public static final DeferredBlock<Block> MOUNTAIN_CORNFLOWER =
-            BLOCKS.register("mountain_cornflower",ModBlocks::createFlower);
+            BLOCKS.registerBlock("mountain_cornflower",ModBlocks::createFlower);
 
     public static final DeferredBlock<Block> POTTED_MOUNTAIN_CORNFLOWER =
-            BLOCKS.register("potted_mountain_cornflower", () -> createPotted(MOUNTAIN_CORNFLOWER));
+            BLOCKS.registerBlock("potted_mountain_cornflower", properties -> createPotted(MOUNTAIN_CORNFLOWER, properties));
 
 
 
@@ -384,7 +384,7 @@ public static final DeferredBlock<Block> ABYSS_S_SPROUT =
             BLOCKS.registerBlock("yellow_rose_bush", ModBlocks::createTallFlower);
 
     public static final DeferredBlock<Block> SCARLET_ROSE =
-            BLOCKS.register("scarlet_rose", ModBlocks::createTallFlower);
+            BLOCKS.registerBlock("scarlet_rose", ModBlocks::createTallFlower);
 
 
     public static final DeferredBlock<Block> WHITE_PEONY =
@@ -424,7 +424,7 @@ public static final DeferredBlock<Block> ABYSS_S_SPROUT =
             BLOCKS.registerBlock("orange_rose_bush", ModBlocks::createTallFlower);
 
     public static final DeferredBlock<Block> VEGNET =
-            BLOCKS.register("vegnet", ModBlocks::createTallFlower);
+            BLOCKS.registerBlock("vegnet", ModBlocks::createTallFlower);
 
     public static final DeferredBlock<Block> MOONFLOWER =
             BLOCKS.registerBlock("moonflower",

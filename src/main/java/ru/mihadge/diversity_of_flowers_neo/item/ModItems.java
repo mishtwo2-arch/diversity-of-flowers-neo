@@ -309,36 +309,43 @@ public class ModItems {
             ModBlocks.ECLIPSE
             );
 
-    public static final DeferredItem<Item> BLUE_KIZ_ITEM =
-            ITEMS.register( "blue_kiz",
-                    () -> new BlockItem(ModBlocks.BLUE_KIZ .get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> BLUE_KIZ_ITEM =
+            ITEMS.registerSimpleBlockItem( "blue_kiz",
+            ModBlocks.BLUE_KIZ
+            );
 
-    public static final DeferredItem<Item> DAURIN_ITEM =
-            ITEMS.register( "daurin",
-                    () -> new BlockItem(ModBlocks.DAURIN .get(), new Item.Properties()));
-
-
-    public static final DeferredItem<Item> CHRISTALIT_ITEM =
-            ITEMS.register( "christalit",
-                    () -> new BlockItem(ModBlocks.CHRISTALIT .get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> DAURIN_ITEM =
+            ITEMS.registerSimpleBlockItem( "daurin",
+            ModBlocks.DAURIN
+            );
 
 
-    public static final DeferredItem<Item> FROIDEUR_ITEM =
-            ITEMS.register( "froideur",
-                    () -> new BlockItem(ModBlocks.FROIDEUR .get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> CHRISTALIT_ITEM =
+            ITEMS.registerSimpleBlockItem( "christalit",
+            ModBlocks.CHRISTALIT
+            );
 
 
-    public static final DeferredItem<Item> MOUNTAIN_CORNFLOWER_ITEM =
-            ITEMS.register( "mountain_cornflower",
-                    () -> new BlockItem(ModBlocks.MOUNTAIN_CORNFLOWER .get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> FROIDEUR_ITEM =
+            ITEMS.registerSimpleBlockItem( "froideur",
+            ModBlocks.FROIDEUR
+            );
 
-    public static final DeferredItem<Item> SCARLET_ROSE_ITEM =
-            ITEMS.register( "scarlet_rose",
-                    () -> new BlockItem(ModBlocks.SCARLET_ROSE .get(), new Item.Properties()));
 
-    public static final DeferredItem<Item> VEGNET_ITEM =
-            ITEMS.register( "vegnet",
-                    () -> new BlockItem(ModBlocks.VEGNET .get(), new Item.Properties()));
+    public static final DeferredItem<BlockItem> MOUNTAIN_CORNFLOWER_ITEM =
+            ITEMS.registerSimpleBlockItem( "mountain_cornflower",
+            ModBlocks.MOUNTAIN_CORNFLOWER
+            );
+
+    public static final DeferredItem<BlockItem> SCARLET_ROSE_ITEM =
+            ITEMS.registerSimpleBlockItem( "scarlet_rose",
+            ModBlocks.SCARLET_ROSE
+            );
+
+    public static final DeferredItem<BlockItem> VEGNET_ITEM =
+            ITEMS.registerSimpleBlockItem( "vegnet",
+            ModBlocks.VEGNET
+            );
 
 
 
