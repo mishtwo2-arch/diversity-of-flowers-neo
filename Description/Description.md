@@ -12,7 +12,7 @@
 
 # Description:
 
-This mod adds 50 new plants to vanilla Minecraft, bringing fresh
+This mod add more 50 new plants to vanilla Minecraft, bringing fresh
 variety to the world.
 It features both reimagined variations of vanilla flowers and completely
 new, unique plants to discover.
@@ -89,7 +89,7 @@ Texture design and testing: Keliandra
 
 # Описание:
 
-Этот мод добавляет в наскучивший ванильный майнкрафт 50 новых растений,
+Этот мод добавляет в наскучивший ванильный майнкрафт более 50 новых растений,
 переработаны как вариации ванильных цветов, так и абсолютно
 новые и уникальные растения.
 
