@@ -20,7 +20,13 @@ from generators.item_model_1214 import generate_item_model_1214
 MODID = "diversity_of_flowers_neo"
 
 flowers = [
-    "almius"
+    "vegnet_bottom",
+    "daurin",
+    "blue_kiz",
+    "christalit",
+    "froideur",
+    "mountain_cornflower",
+    "scarlet_rose_item"
 ]
 
 DO_ITEM_MODEL = False

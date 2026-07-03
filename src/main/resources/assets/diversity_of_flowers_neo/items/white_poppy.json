@@ -1,7 +1,6 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "diversity_of_flowers_neo:block/white_poppy",
-    "gui_light": "front"
+  "model": {
+    "type": "minecraft:model",
+    "model": "diversity_of_flowers_neo:item/white_poppy"
   }
 }

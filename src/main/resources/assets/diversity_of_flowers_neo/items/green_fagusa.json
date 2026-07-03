@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "diversity_of_flowers_neo:block/green_fagusa"
+  "model": {
+    "type": "minecraft:model",
+    "model": "diversity_of_flowers_neo:item/green_fagusa"
   }
 }

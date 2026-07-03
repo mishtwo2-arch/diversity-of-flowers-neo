@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "diversity_of_flowers_neo:block/yellow_tulip"
+  "model": {
+    "type": "minecraft:model",
+    "model": "diversity_of_flowers_neo:item/yellow_tulip"
   }
 }

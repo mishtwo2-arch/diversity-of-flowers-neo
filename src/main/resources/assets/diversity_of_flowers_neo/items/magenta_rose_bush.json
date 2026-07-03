@@ -1,4 +1,6 @@
 {
-  "parent": "diversity_of_flowers_neo:block/magenta_rose_bush_bottom",
-  "gui_light": "front"
+  "model": {
+    "type": "minecraft:model",
+    "model": "diversity_of_flowers_neo:item/magenta_rose_bush"
+  }
 }
