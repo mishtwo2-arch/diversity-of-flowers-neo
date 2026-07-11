@@ -1,8 +1,7 @@
 package ru.mihadge.diversity_of_flowers_neo;
 
 import ru.mihadge.diversity_of_flowers_neo.block.ModBlocks;
-import ru.mihadge.diversity_of_flowers_neo.item.ModEndCreativeTabs;
-import ru.mihadge.diversity_of_flowers_neo.item.ModItemCreativeTabs;
+import ru.mihadge.diversity_of_flowers_neo.item.*;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -18,8 +17,6 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Blocks;
-import ru.mihadge.diversity_of_flowers_neo.item.ModItems;
-import ru.mihadge.diversity_of_flowers_neo.item.ModCreativeTabs;
 import ru.mihadge.diversity_of_flowers_neo.worldgen.ModFeatures;
 
 
@@ -50,6 +47,7 @@ public class DiversityOfFlowersNeo {
 
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
+
         ModCreativeTabs.register(modEventBus);
         ModItemCreativeTabs.register(modEventBus);
         ModEndCreativeTabs.register(modEventBus);
@@ -62,6 +60,7 @@ public class DiversityOfFlowersNeo {
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
+
 
         LOGGER.info("HELLO FROM COMMON SETUP");
 
