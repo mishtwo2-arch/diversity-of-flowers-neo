@@ -2,10 +2,11 @@
 
 
 [EN]
-# Update! 1.3.1 Changes:
-- ### Seven new flowers.
+# Update! 1.3.3 Changes:
 
-- ### A unique flower that appears only above amethyst geodes!
+- ### Flowers can now be composted.
+
+- ### Fixed an achievement bug.
 
 
 - ### New achievements
@@ -79,13 +80,12 @@ Texture design and testing: Keliandra
 
 
 [RU]
-# Обновление! 1.3.1 Изменения:
-- ### Семь новых цветов.
+# Обновление! 1.3.3 Изменения:
 
-- ### Уникальный цветок появляющийся только над жеодами аметиста!
+- ### Теперь цветы могут быть компостированы.
 
+- ### Исправлена ошибка в ачивках
 
-- ### Новые достижения
 
 # Описание:
 
