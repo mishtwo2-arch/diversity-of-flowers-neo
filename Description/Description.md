@@ -6,10 +6,9 @@
 
 - ### Flowers can now be composted.
 
+
 - ### Fixed an achievement bug.
 
-
-- ### New achievements
 
 # Description:
 
@@ -83,6 +82,8 @@ Texture design and testing: Keliandra
 # Обновление! 1.3.3 Изменения:
 
 - ### Теперь цветы могут быть компостированы.
+
+
 
 - ### Исправлена ошибка в ачивках
 
