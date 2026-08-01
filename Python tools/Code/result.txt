@@ -1,0 +1,6 @@
+public static final RegistryObject<Block> TEST =
+        registerBlock("test", ModBlocks::createSimpleFlower);
+
+public static final RegistryObject<Block> TEST_2 =
+        registerBlock("test_2", ModBlocks::createSimpleFlower);
+

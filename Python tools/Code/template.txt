@@ -1,0 +1,3 @@
+public static final RegistryObject<Block> {NAME_UPPER} =
+        registerBlock("{NAME}", ModBlocks::createSimpleFlower);
+
