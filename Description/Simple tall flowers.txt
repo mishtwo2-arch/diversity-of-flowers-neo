@@ -1,0 +1,15 @@
+azure_sage
+golden_sage
+magenta_rose_bush
+orange_rose_bush
+pink_peony
+pink_rose_bush
+purple_rose_bush
+red_peony
+scarlet_sage
+violet_sage
+white_peony
+white_rose_bush
+yellow_rose_bush
+vegnet
+scarlet_rose
