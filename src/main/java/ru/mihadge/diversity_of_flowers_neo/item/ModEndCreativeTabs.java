@@ -11,7 +11,7 @@ public class ModEndCreativeTabs {
     public static final DeferredRegister<CreativeModeTab> END_CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, DiversityOfFlowersNeo.MODID);
 
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> FABULOUS_FLOWERS_ITEMS_TAB =
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DIVERSITY_OF_FLOWERS_ITEMS_TAB =
             END_CREATIVE_MODE_TABS.register("end_diversity_of_flowers_neo", () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.diversity_of_flowers_neo_end"))
                     .icon(() -> ModItems.ABYSS_ITEM.get().getDefaultInstance())
