@@ -12,7 +12,7 @@ public class ModItemCreativeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_ITEM_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, DiversityOfFlowersNeo.MODID);
 
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> FABULOUS_FLOWERS_ITEMS_TAB =
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DIVERSITY_OF_FLOWERS_NEO_ITEMS_TAB =
             CREATIVE_ITEM_MODE_TABS.register("diversity_of_flowers_neo_items", () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.diversity_of_flowers_neo_items"))
                     .icon(() -> ModItems.MOON_STAR_ITEM.get().getDefaultInstance())
